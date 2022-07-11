@@ -1,0 +1,10 @@
+.Home {
+  display: flex;
+  width: 500px;
+  margin: auto;
+  padding: 200px;
+}
+
+body {
+  background-color: #191D1F;
+}

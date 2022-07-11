@@ -1,0 +1,67 @@
+.Exhibitions {
+  padding-top: 10%;
+  margin: 0% 10%;
+}
+
+.Exhibitions .Container {
+  display: flex;
+}
+
+.Exhibitions .mySwiper .swiperSlide img {
+  max-width: 84%;
+  padding-left: 8%;
+  padding-top: 5%;
+  object-fit: cover;
+}
+
+.Exhibitions .swiperNavNext .swiperNavPrev {
+  top: 50%;
+  position: absolute;
+  color: white !important;
+  padding-left: 10%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.Exhibitions .mySwiper .swiperSlide .swiperNavPrev {
+  left:0;
+  background-image: url('./../img/carousel/arrow_left.png');
+}
+
+.swiperNavNext {
+  right:0;
+  background-image: url('./../img/carousel/arrow_right.png');
+}
+
+.Exhibitions .Item {
+  min-height: 40rem; 
+  min-width: 30rem;
+  width: 100%;
+  padding: 20px;
+}
+
+.Item img {
+  width: 1000px;
+  height: 100%;
+  border-radius: 1rem;
+  pointer-events: none;
+}
+
+.InnerCarousel {
+  display: flex;
+  width: 100%;
+  background: #191d1f;
+}
+
+.Carousel {
+  width: 100%;
+  cursor: grab;
+  overflow: hidden;
+  background: #191d1f;
+}
