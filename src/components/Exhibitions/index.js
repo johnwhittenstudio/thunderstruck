@@ -26,6 +26,7 @@ const Exhibitions = () => {
 
       <Swiper 
         modules={[Thumbs, Navigation, EffectFade, Pagination]}
+        // thumbs={{ swiper: thumbsSwiper }}
         watchSlidesProgress
         onSwiper={setThumbsSwiper}
         navigation

@@ -48,7 +48,7 @@ import page44 from './../img/book/Book-44.jpg'
 
 const Page = React.forwardRef((props, ref) => {
   return (
-    <div className="demoPage" ref={ref}> 
+    <div className={classes.demoPage} ref={ref}> 
       {/* <h1>Page Header</h1> */}
       <p>{props.children}</p>
       {/* <p>Page number: {props.number}</p> */}
@@ -61,8 +61,9 @@ const Book = (props) => {
     <div className={classes.Book}>
       <div className={classes.Container}>
         <HTMLFlipBook 
-          width={400} 
-          height={800} 
+          width={450} 
+          height={900} 
+          drawShadow={"true"}
           // minWidth={300}
           showCover={true} 
           // size={"stretch"} 
