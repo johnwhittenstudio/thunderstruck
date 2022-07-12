@@ -1,16 +1,16 @@
 .Book {
   /* background: red; */
   padding-top: 10%;
-  padding-bottom: 10%;
-  display: flex;
-  justify-content: center;
+  /* padding-bottom: 10%; */
+
   /* padding-right: 10%; */
 }
 
 .Book .Container {
-  padding-left: 45%;
+  display: flex;
+  justify-content: center;
 }
 
 .Book img {
-  width: 300px;
+  width: 400px;
 }

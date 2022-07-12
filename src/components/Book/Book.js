@@ -23,6 +23,28 @@ import page19 from './../img/book/Book-19.jpg'
 import page20 from './../img/book/Book-20.jpg'
 import page21 from './../img/book/Book-21.jpg'
 import page22 from './../img/book/Book-22.jpg'
+import page23 from './../img/book/Book-23.jpg'
+import page24 from './../img/book/Book-24.jpg'
+import page25 from './../img/book/Book-25.jpg'
+import page26 from './../img/book/Book-26.jpg'
+import page27 from './../img/book/Book-27.jpg'
+import page28 from './../img/book/Book-28.jpg'
+import page29 from './../img/book/Book-29.jpg'
+import page30 from './../img/book/Book-30.jpg'
+import page31 from './../img/book/Book-31.jpg'
+import page32 from './../img/book/Book-32.jpg'
+import page33 from './../img/book/Book-33.jpg'
+import page34 from './../img/book/Book-34.jpg'
+import page35 from './../img/book/Book-35.jpg'
+import page36 from './../img/book/Book-36.jpg'
+import page37 from './../img/book/Book-37.jpg'
+import page38 from './../img/book/Book-38.jpg'
+import page39 from './../img/book/Book-39.jpg'
+import page40 from './../img/book/Book-40.jpg'
+import page41 from './../img/book/Book-41.jpg'
+import page42 from './../img/book/Book-42.jpg'
+import page43 from './../img/book/Book-43.jpg'
+import page44 from './../img/book/Book-44.jpg'
 
 const Page = React.forwardRef((props, ref) => {
   return (
@@ -39,13 +61,13 @@ const Book = (props) => {
     <div className={classes.Book}>
       <div className={classes.Container}>
         <HTMLFlipBook 
-          width={300} 
-          height={500} 
+          width={400} 
+          height={800} 
           // minWidth={300}
           showCover={true} 
-          // size={"fixed"} 
+          // size={"stretch"} 
           maxShadowOpacity={0} 
-          // autoSize={"true"}
+          autoSize={"true"}
           >
           <Page number="1" ><img src={frontCover} alt=""/></Page>
           <Page number="2"><img src={page02} alt=""/></Page>
@@ -69,6 +91,28 @@ const Book = (props) => {
           <Page number="20"><img src={page20} alt=""/></Page>
           <Page number="21"><img src={page21} alt=""/></Page>
           <Page number="22"><img src={page22} alt=""/></Page>
+          <Page number="23"><img src={page23} alt=""/></Page>
+          <Page number="24"><img src={page24} alt=""/></Page>
+          <Page number="25"><img src={page25} alt=""/></Page>
+          <Page number="26"><img src={page26} alt=""/></Page>
+          <Page number="27"><img src={page27} alt=""/></Page>
+          <Page number="28"><img src={page28} alt=""/></Page>
+          <Page number="29"><img src={page29} alt=""/></Page>
+          <Page number="30"><img src={page30} alt=""/></Page>
+          <Page number="31"><img src={page31} alt=""/></Page>
+          <Page number="32"><img src={page32} alt=""/></Page>
+          <Page number="33"><img src={page33} alt=""/></Page>
+          <Page number="34"><img src={page34} alt=""/></Page>
+          <Page number="35"><img src={page35} alt=""/></Page>
+          <Page number="36"><img src={page36} alt=""/></Page>
+          <Page number="37"><img src={page37} alt=""/></Page>
+          <Page number="38"><img src={page38} alt=""/></Page>
+          <Page number="39"><img src={page39} alt=""/></Page>
+          <Page number="40"><img src={page40} alt=""/></Page>
+          <Page number="41"><img src={page41} alt=""/></Page>
+          <Page number="42"><img src={page42} alt=""/></Page>
+          <Page number="43"><img src={page43} alt=""/></Page>
+          <Page number="44"><img src={page44} alt=""/></Page>
         </HTMLFlipBook>
       </div>
     </div>
