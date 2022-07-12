@@ -10,11 +10,11 @@
 .Exhibitions .mySwiper .swiperSlide img {
   max-width: 84%;
   padding-left: 8%;
-  padding-top: 5%;
+  padding-top: 2%;
   object-fit: cover;
 }
 
-.Exhibitions .swiperNavNext .swiperNavPrev {
+/* .Exhibitions .swiperNavNext .swiperNavPrev .swiper-button-prev {
   top: 50%;
   position: absolute;
   color: white !important;
@@ -27,17 +27,24 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+} */
+
+.Exhibition .SwiperNavPrev swiper-button-prev {
+  /* left:0; */
+  color: white !important;
+  /* background-image: url('./../img/carousel/arrow_left.png'); */
 }
 
-.Exhibitions .mySwiper .swiperSlide .swiperNavPrev {
-  left:0;
-  background-image: url('./../img/carousel/arrow_left.png');
+.SwiperNavPrev .swiper-button-next .swiper-rtl .swiper-button-prev {
+  color: white !important;
 }
-
 .swiperNavNext {
-  right:0;
-  background-image: url('./../img/carousel/arrow_right.png');
+  /* right:0; */
+  color: white !important;
+  /* background-image: url('./../img/carousel/arrow_right.png'); */
 }
+
+.Exhibitions .swiperNavPrev { color: red !important }
 
 .Exhibitions .Item {
   min-height: 40rem; 
@@ -64,4 +71,11 @@
   cursor: grab;
   overflow: hidden;
   background: #191d1f;
+}
+
+.ExhibitionText h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: light;
 }

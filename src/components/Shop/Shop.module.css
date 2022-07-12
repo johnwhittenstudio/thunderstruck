@@ -51,11 +51,15 @@
   flex: 1;
   padding-left: 5%;
   padding-right: 5%;
+  position: fixed;
+  width: 23%;
+  right: 0;
 }
 .App .blockCol2{
   flex: 2;
   padding-left: 5%;
-
+  max-width: 64%;
+  left: 0;
 }
 .App .block {
   border: 2px solid black;
@@ -99,7 +103,7 @@
   background-color: #6e0101;
   width: 2rem; 
 }
-.App button.badge {
+.App .badge {
   background-color: #003548;
   border: none;
   color: #ffffff;

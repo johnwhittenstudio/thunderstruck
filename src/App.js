@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import Home from './../src/components/Home/Home';
 import About from './../src/components/About/About';
+import Book from './../src/components/Book/Book';
 import Artists from './../src/components/Artists/ArtistList';
 import Exhibitions from './../src/components/Exhibitions/index';
 import Shop from './../src/components/Shop/Shop';
@@ -25,6 +26,7 @@ return (
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About/>} />
         <Route path='/artists' element={<Artists/>} />
+        <Route path='/book' element={<Book/>} />
         <Route path='/exhibitions' element={<Exhibitions/>} />
         <Route path='/shop' element={<Shop/>} />
         <Route path='/trips' element={<Trips/>} />

@@ -7,7 +7,7 @@
 .About .Container {
   display: block;
   flex-wrap: wrap;
-  box-shadow: 0 0 12px 4px #518697;
+  box-shadow: 0 0 12px 4px #5185978c;
   color: whitesmoke;
   padding: 2em;
   margin-left: 13%;
@@ -15,7 +15,7 @@
   line-height: 1.75em;
   font-size: 1em;
   /* font-weight: lighter; */
-  border: 1px solid #518697;
+  border: 1px solid #5185978c;
 }
 
 .About .Container .Text {

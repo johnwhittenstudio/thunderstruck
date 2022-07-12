@@ -11,6 +11,16 @@ export default function Basket(props) {
   return (
     <aside className={classes.blockCol1}>
       <h2>Cart Items</h2>
+      {/* <div>
+        <a href="#/cart">
+          Cart{' '}
+          {props.countCartItems ? (
+            <button className={classes.badge}>{props.countCartItems}</button>
+          ) : (
+            ''
+          )}
+        </a>{' '}
+      </div> */}
       <div>
         {cartItems.length === 0 && <div>Cart is empty</div>}
         {cartItems.map((item) => (

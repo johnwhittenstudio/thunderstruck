@@ -26,6 +26,9 @@ const Navbar = () => {
           <NavLink to="/artists" activeStyle>
             artists
           </NavLink>
+          <NavLink to="/book" activeStyle>
+            book
+          </NavLink>
           <NavLink to="/exhibitions" activeStyle>
             exhibitions
           </NavLink>
