@@ -1,0 +1,9 @@
+.Artists {
+  padding-top: 7%;
+}
+
+.Artists .Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

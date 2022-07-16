@@ -19,11 +19,12 @@ const Exhibitions = () => {
 
   const swiperNavPrevRef = useRef(null)
   const swiperNavNextRef = useRef(null)
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [setThumbsSwiper] = useState(null);
+  // const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return ( 
     <div className={classes.Exhibitions}>
-
+      <div className={classes.HeaderContainer}><h2>see our shows</h2></div>
       <Swiper 
         modules={[Thumbs, Navigation, EffectFade, Pagination]}
         // thumbs={{ swiper: thumbsSwiper }}
@@ -65,6 +66,7 @@ const Exhibitions = () => {
       <div className={classes.ExhibitionText}>
         <h4><em>Thunderstruck 2.0: black hole sun</em>, 2021, exhibition installation view at Carnation Contemporary in Portland, OR</h4>
       </div>
+
     </div>
   );
 }

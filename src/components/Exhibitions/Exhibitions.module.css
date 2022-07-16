@@ -1,6 +1,16 @@
 .Exhibitions {
-  padding-top: 10%;
+  padding-top: 7%;
   margin: 0% 10%;
+}
+
+/* .Exhibitions {
+  background-color: rgb(0, 85, 255);
+} */
+
+.Exhibitions .HeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Exhibitions .Container {
@@ -8,9 +18,9 @@
 }
 
 .Exhibitions .mySwiper .swiperSlide img {
-  max-width: 84%;
-  padding-left: 8%;
-  padding-top: 2%;
+  max-width: 70%;
+  padding-left: 15%;
+  /* padding-top: 2%; */
   object-fit: cover;
 }
 
@@ -50,13 +60,13 @@
   min-height: 40rem; 
   min-width: 30rem;
   width: 100%;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .Item img {
   width: 1000px;
   height: 100%;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
   pointer-events: none;
 }
 

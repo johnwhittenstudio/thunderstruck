@@ -1,5 +1,5 @@
 .App {
-  padding-top: 10%;
+  padding-top: 8%;
 }
 
 .App body {
@@ -23,7 +23,11 @@
   font-size: 0.8rem;
 }
 .App .merch{
-  margin-left: 1%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin-left: 15%;
+
 }
 .App a {
   text-decoration: none;

@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import Button from '@mui/material/Button'
-import BoltTwoToneIcon from '@mui/icons-material/BoltTwoTone'
+// import Button from '@mui/material/Button'
+// import BoltTwoToneIcon from '@mui/icons-material/BoltTwoTone'
 // import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import Navbar from './components/Navbar/NavBar';
 import { BrowserRouter as Router, Routes, Route}
@@ -10,10 +10,12 @@ import { BrowserRouter as Router, Routes, Route}
 import Home from './../src/components/Home/Home';
 import About from './../src/components/About/About';
 import Book from './../src/components/Book/Book';
-import Artists from './../src/components/Artists/ArtistList';
+import Artists from './components/Artists/Artists';
 import Exhibitions from './../src/components/Exhibitions/index';
 import Shop from './../src/components/Shop/Shop';
 import Trips from './../src/components/Trips/Trips';
+import TripsTLF from './../src/components/Trips/TripOne';
+import TripsTST from './../src/components/Trips/TripTwo';
 
 
 
@@ -30,6 +32,8 @@ return (
         <Route path='/exhibitions' element={<Exhibitions/>} />
         <Route path='/shop' element={<Shop/>} />
         <Route path='/trips' element={<Trips/>} />
+        <Route path='/trips/tlf' element={<TripsTLF/>} />
+        <Route path='/trips/tst' element={<TripsTST/>} />
     </Routes>
     </Router>
     {/* <Button onClick={()=>alert('Take a shot of Fireball')} 

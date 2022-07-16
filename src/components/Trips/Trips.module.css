@@ -1,3 +1,50 @@
 .Trips {
-  padding-top: 10%;
+  padding-top: 9%;
+}
+
+.Trips .Container {
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid gray; */
+}
+
+.Trips .Container img {
+  max-width: 100%;
+  border: 1px solid #518597;
+  box-shadow: 0 0 12px 4px #5185978c;
+}
+
+
+.Trips .Container .blockColLeft{
+  flex: 1;
+  padding-left: 5%;
+  position: absolute;
+  max-width: 44%;
+  left: 0;
+  /* border: 1px solid gray; */
+}
+
+.Trips .Container .blockColRight{
+  flex: 2;
+  padding-right: 5%;
+  position: absolute;
+  max-width: 44%;
+  right: 0;
+}
+
+.Trips .Row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Trips .Container .Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2%;
 }

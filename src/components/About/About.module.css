@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Emilys+Candy&family=Grape+Nuts&family=Montserrat:wght@400;500;600;700&family=Nunito+Sans:wght@400;600;700&family=Orbitron:wght@500;700&family=Permanent+Marker&family=Prompt:ital,wght@0,300;1,500;1,700;1,900&family=Raleway:wght@400;500;600&display=swap');
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 .About {
   /* background: red; */
-  padding-top: 10%;
+  padding-top: 7%;
   padding-bottom: 10%;
 }
 
@@ -20,6 +23,36 @@
 
 .About .Container .Text {
   text-indent: 3%;
+  /* padding-left: 5%; */
+  padding-right: 5%;
+}
+
+.About .blockColLeft {
+  flex: 2;
+  padding-left: 5%;
+  /* max-width: 45%; */
+  left: 0;
+}
+
+.About .blockColRight{
+  flex: 1;
+  padding-left: 7%;
+  padding-right: 10%;
+  /* position: fixed; */
+  width: 40%;
+  right: 0;
+}
+
+.About .blockColRight img{
+  width: 80%;
+}
+
+.About .Container img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  padding-left: 10%;
 }
 
 .About .Logos {
@@ -35,3 +68,30 @@
   padding: 2%;
   opacity: 50%;
 }
+
+.About .Text a {
+  text-decoration: none;
+  color: white;
+}
+
+.About .Text a:hover  {
+  animation: blinker 0.3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 1;
+  }
+}
+
+
+
