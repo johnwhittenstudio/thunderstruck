@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route}
 import Home from './../src/components/Home/Home';
 import About from './../src/components/About/About';
 import Book from './../src/components/Book/Book';
-import Artists from './../src/components/Artists/ArtistControl';
+import Artists from './../src/components/Artists/ArtistCards';
 import Exhibitions from './../src/components/Exhibitions/index';
 import Shop from './../src/components/Shop/Shop';
 import Trips from './../src/components/Trips/Trips';

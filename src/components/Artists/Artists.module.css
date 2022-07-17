@@ -39,8 +39,13 @@
 }
 
 .Artist .Card {
-  /* background-color: #add8e6; */
-  border: 2px solid #add8e6;
+  background-image: url('./../img/artists/catPeopleTarot-10.png');
+  opacity: 0.5;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  border: 1px solid #add8e6;
+  border-radius: 15px;
   box-shadow: 0 0 12px 4px #5185978c;
   color: whitesmoke;
   /* padding: 16px 32px; */
@@ -49,21 +54,21 @@
   margin: 4px 2px;
   opacity: 0.8;
   transition: 0.3s;
-  height: 300px;
+  height: 400px;
   width: 400px;
   /* width: 100%; */
-  padding: 15%;
+  padding: 10%;
   margin: 15%;
 }
 
-/* .Artist .Card:hover {
+.Artist .Card:hover {
   opacity: 1;
   background-color: #fcbba7;
-  border: 2px solid #f4501ead;
+  border: 1px solid #f4501ead;
   color: black;
-} */
+}
 
-.Artist .Card:hover {
+/* .Artist .Card:hover {
   animation: blinker 0.3s linear infinite;
 }
 
@@ -80,7 +85,7 @@
   95% {
     opacity: 1;
   }
-}
+} */
 
 .Artist .Cardhr {
   border: 2px solid #00bfff; 
@@ -99,4 +104,135 @@
 }
 #banner{
   padding: 5%;
+}
+
+
+/* ARTIST CARDS */
+
+.ArtistCards {
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+
+.ArtistCards .Container {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.ArtistCards .Column {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.ArtistCards .Row {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.ArtistCards .Card {
+  margin: 5%;
+}
+
+.ArtistCards .CardFront {
+  background-image: url('./../img/artists/catTarot-50.png');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  border: 1px solid #add8e6;
+  border-radius: 15px;
+  box-shadow: 0 0 12px 4px #5185978c;
+  height: 500px;
+  width: 300px;
+  color: whitesmoke;
+  /* display: "flex";
+  justify-content: "center";
+  align-items: "center"; */
+  cursor: "pointer";
+}
+
+
+
+.ArtistCards .CardFront .Text {
+  padding-top: 45%;
+}
+
+
+.ArtistCards .CardFront {
+  background-image: url('./../img/artists/catPeopleTarot-10.png');
+  opacity: 0.5;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  border: 1px solid #add8e6;
+  border-radius: 15px;
+  box-shadow: 0 0 12px 4px #5185978c;
+  color: whitesmoke;
+  /* padding: 16px 32px; */
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  transition: 0.3s;
+  height: 450px;
+  width: 250px;
+  /* width: 100%; */
+  padding: 10%;
+  margin: 15%;
+}
+
+.ArtistCards .CardFront:hover {
+  opacity: 1;
+  background-color: #fcbba7;
+  border: 1px solid #f4501ead;
+  color: black;
+}
+
+.ArtistCards .Cardhr {
+  border: 2px solid #00bfff; 
+  max-width: 85%;
+  margin-left: 8%;
+  border-radius: 5px;
+  align-content: center;
+}
+
+.ArtistCards .Cardhrlow {
+  border: 2px solid #00bfff; 
+  max-width: 40%;
+  margin-left: 30%;
+  border-radius: 5px;
+  align-content: center;
+}
+
+.ArtistCards .CardBack {
+  /* background-image: url('./../img/artists/catPeopleTarot-10.png'); */
+  opacity: 0.5;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  border: 1px solid #add8e6;
+  border-radius: 15px;
+  box-shadow: 0 0 12px 4px #5185978c;
+  color: whitesmoke;
+  /* padding: 16px 32px; */
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  transition: 0.3s;
+  height: 450px;
+  width: 250px;
+  /* width: 100%; */
+  padding: 10%;
+  margin: 15%;
+}
+
+.ArtistCards .CardBack a {
+  text-decoration: none;
+  color: #add8e6;
+}
+
+.ArtistCards .CardBack .Text {
+  padding-top: 25%;
 }

@@ -19,7 +19,7 @@ const Footer = () => {
         {/* <div className={classes.FooterIcons}>
         </div> */}
           <FaInstagramSquare className={classes.Icon} color="#518597" size='30px' style={{padding: '1%'}}
-          onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
+          onClick={handleURL('https://www.instagram.com/thunderstruckcollective/')} />
         {/* <div className={classes.FooterIcons}>
         </div> */}
 
