@@ -1,40 +1,39 @@
-const data = {
-  artists: [
+const data = [
     {
     id: '1',
     name: 'Dr. Jessi DiTillio',
     location: 'Los Angeles, California',
     role:'Co-founding Co-director',
-    website:'',
+    website:'https://www.jessiditillio.com/',
     instagram:'',
-    image: require("./../Shop/img/book_01.jpg"),
+    image: require("./../img/logos/01.png"),
     },
     {
       id: '2',
       name: 'Katherine Spinella',
       location: 'Portland, Oregon',
       role:'Co-founding Co-director',
-      website:'',
+      website:'https://www.katherinespinella.com/',
       instagram:'',
-      image: require("./../Shop/img/book_prints_set_01.jpg"),
+      image: require("./../img/logos/01.png"),
     },
     {
       id: '3',
       name: 'Michael E. Stephen',
       location: 'Los Angeles, California',
       role:'Co-founding Co-director',
-      website:'',
+      website:'https://www.michaelestephen.com/',
       instagram:'',
-      image: require("./../Shop/img/salt_01.jpg"),
+      image: require("./../img/logos/01.png"),
     },
     {
       id: '4',
       name: 'John Whitten',
       location: 'Portland, Oregon',
       role:'Co-founding Co-director',
-      website:'',
+      website:'https://www.johnwhitten.com/',
       instagram:'',
-      image: require("./../Shop/img/cloud-shirt_black.jpg"),
+      image: require("./../img/logos/01.png"),
       },
       {
         id: '5',
@@ -43,7 +42,7 @@ const data = {
         role:'Member since 2020',
         website:'https://ashlin.me/',
         instagram:'https://www.instagram.com/scenicbanker/?hl=en',
-        image: require("./../Shop/img/cloud-shirt_blue.jpg"),
+        image: require("./../img/logos/01.png"),
       },
       {
         id: '6',
@@ -52,7 +51,7 @@ const data = {
         role:'Member since 2018',
         website:'',
         instagram:'',
-        image: require("./../Shop/img/spirit_lake_01.jpg"),
+        image: require("./../img/logos/01.png"),
       },
       {
         id: '7',
@@ -61,7 +60,7 @@ const data = {
         role:'Member since 2018',
         website:'',
         instagram:'',
-        image: require("./../Shop/img/cabin_01.jpg"),
+        image: require("./../img/logos/01.png"),
       },
       {
         id: '8',
@@ -70,18 +69,18 @@ const data = {
         role:'Member since 2020',
         website:'http://www.kristinhough.com/',
         instagram:'https://www.instagram.com/keekshough/?hl=en',
-        image: require("./../Shop/img/cabin-interior_01.jpg"),
+        image: require("./../img/logos/01.png"),
       },
       {
         id: '9',
         name: 'Morgan Rosskopf',
-        location: 25,
+        location: 'Portland, Oregon',
         role:'Member since 2020',
         website:'http://morganrosskopf.com/',
         instagram:'https://www.instagram.com/morgan_rosskopf/',
-        image: require("./../Shop/img/vla_01.jpg"),
+        image: require("./../img/logos/01.png"),
       },
-  ],
-};
+    ]
+  
 
 export default data;

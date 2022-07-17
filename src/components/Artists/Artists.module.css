@@ -1,9 +1,102 @@
-.Artists {
+.Artist {
   padding-top: 7%;
+  padding-bottom: 5%;
 }
 
-.Artists .Container {
+.ArtistDetail {
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+
+.Artist .Header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.Artist .Logo{
+  margin-left: 2%;
+  margin-right: 7%;
+}
+
+.Artist .Container {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.Artist .Column {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.Artist .Row {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.Artist .Card {
+  /* background-color: #add8e6; */
+  border: 2px solid #add8e6;
+  box-shadow: 0 0 12px 4px #5185978c;
+  color: whitesmoke;
+  /* padding: 16px 32px; */
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  transition: 0.3s;
+  height: 300px;
+  width: 400px;
+  /* width: 100%; */
+  padding: 15%;
+  margin: 15%;
+}
+
+/* .Artist .Card:hover {
+  opacity: 1;
+  background-color: #fcbba7;
+  border: 2px solid #f4501ead;
+  color: black;
+} */
+
+.Artist .Card:hover {
+  animation: blinker 0.3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 1;
+  }
+}
+
+.Artist .Cardhr {
+  border: 2px solid #00bfff; 
+  max-width: 85%;
+  margin-left: 8%;
+  border-radius: 5px;
+  align-content: center;
+}
+
+.Artist .Cardhrlow {
+  border: 2px solid #00bfff; 
+  max-width: 40%;
+  margin-left: 30%;
+  border-radius: 5px;
+  align-content: center;
+}
+#banner{
+  padding: 5%;
 }

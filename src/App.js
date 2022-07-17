@@ -5,12 +5,13 @@ import './App.css';
 // import BoltTwoToneIcon from '@mui/icons-material/BoltTwoTone'
 // import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import Navbar from './components/Navbar/NavBar';
+import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import Home from './../src/components/Home/Home';
 import About from './../src/components/About/About';
 import Book from './../src/components/Book/Book';
-import Artists from './components/Artists/Artists';
+import Artists from './../src/components/Artists/ArtistControl';
 import Exhibitions from './../src/components/Exhibitions/index';
 import Shop from './../src/components/Shop/Shop';
 import Trips from './../src/components/Trips/Trips';
@@ -49,6 +50,7 @@ return (
     {/* <IconButton color="primary" aria-label="add to shopping cart">
       <AddShoppingCartIcon />
     </IconButton> */}
+    <Footer />
   </>
 );
 }

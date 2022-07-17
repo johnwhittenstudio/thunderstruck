@@ -1,0 +1,38 @@
+.Footer {    
+bottom: 0;
+left: 0;
+right: 0;
+height: auto;
+width: 100vw;
+padding-top: 40px;
+padding-bottom: 40px;
+color: #fff;
+}
+
+.Footer .FooterIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.Footer .FooterText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.Footer .FooterIcons a:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+}
+
+.Footer .FooterIcons svg path {
+  cursor: pointer;
+  box-shadow: 0 0 12px 4px #5185978c;
+}
+
