@@ -3,44 +3,50 @@
   padding-bottom: 5%;
 }
 
-.ArtistDetail {
-  padding-top: 7%;
-  padding-bottom: 5%;
-}
-
-.Artist .Header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.Artist .Logo{
-  margin-left: 2%;
-  margin-right: 7%;
-}
 
 .Artist .Container {
+  padding-left: 1%;
+  padding-right: 1%;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .Artist .Column {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: center;
-  justify-content: center; */
+
 }
 
 .Artist .Row {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: center; */
   justify-content: center;
 }
 
-.Artist .Card {
-  background-image: url('./../img/artists/catPeopleTarot-10.png');
-  opacity: 0.5;
+.Artist .CardFront {
+  background-image: url('./../img/artists/catPeopleTarot-25.png');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  border: 1px solid #add8e6;
+  border-radius: 15px;
+  box-shadow: 0 0 12px 4px #5185978c;
+  color: whitesmoke;
+  /* padding: 16px 32px; */
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  transition: 0.3s;
+  height: 400px;
+  width: 400px;
+  /* width: 100%; */
+  padding: 10%;
+  margin: 15%;
+}
+
+.Artist .CardBack {
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
@@ -68,26 +74,16 @@
   color: black;
 }
 
-/* .Artist .Card:hover {
-  animation: blinker 0.3s linear infinite;
+.Artist .CardFront .Text {
+  padding-top: 35%;
 }
 
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-  60% {
-    opacity: 1;
-  }
-  65% {
-    opacity: 0;
-  }
-  95% {
-    opacity: 1;
-  }
-} */
+.Artist .CardBack a {
+  text-decoration: none;
+  color: #add8e6;
+}
 
-.Artist .Cardhr {
+/* .Artist .Cardhr {
   border: 2px solid #00bfff; 
   max-width: 85%;
   margin-left: 8%;
@@ -101,15 +97,16 @@
   margin-left: 30%;
   border-radius: 5px;
   align-content: center;
-}
-#banner{
-  padding: 5%;
-}
+} */
+
+
+
+
 
 
 /* ARTIST CARDS */
 
-.ArtistCards {
+/* .ArtistCards {
   padding-top: 7%;
   padding-bottom: 5%;
 }
@@ -119,24 +116,24 @@
   flex-wrap: wrap; 
 }
 
-.ArtistCards .Column {
+.Artist .Column {
   display: flex;
   flex-wrap: wrap; 
+
 }
 
 .ArtistCards .Row {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: center; */
   justify-content: center;
-}
+} */
 
-.ArtistCards .Card {
+/* .ArtistCards .Card {
   margin: 5%;
-}
+} */
 
-.ArtistCards .CardFront {
-  background-image: url('./../img/artists/catTarot-50.png');
+/* .ArtistCards .CardFront {
+  background-image: url('./../img/artists/catPeopleTarot-50.png');
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
@@ -146,21 +143,18 @@
   height: 500px;
   width: 300px;
   color: whitesmoke;
-  /* display: "flex";
-  justify-content: "center";
-  align-items: "center"; */
   cursor: "pointer";
-}
+} */
 
 
 
-.ArtistCards .CardFront .Text {
+/* .ArtistCards .CardFront .Text {
   padding-top: 45%;
-}
+} */
 
 
-.ArtistCards .CardFront {
-  background-image: url('./../img/artists/catPeopleTarot-10.png');
+/* .Artist .Card .CardFront {
+  background-image: url('./../img/artists/catPeopleTarot-50.png');
   opacity: 0.5;
   background-position: center; 
   background-repeat: no-repeat; 
@@ -169,7 +163,6 @@
   border-radius: 15px;
   box-shadow: 0 0 12px 4px #5185978c;
   color: whitesmoke;
-  /* padding: 16px 32px; */
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
@@ -177,12 +170,11 @@
   transition: 0.3s;
   height: 450px;
   width: 250px;
-  /* width: 100%; */
   padding: 10%;
   margin: 15%;
-}
+} */
 
-.ArtistCards .CardFront:hover {
+/* .ArtistCards .CardFront:hover {
   opacity: 1;
   background-color: #fcbba7;
   border: 1px solid #f4501ead;
@@ -206,7 +198,6 @@
 }
 
 .ArtistCards .CardBack {
-  /* background-image: url('./../img/artists/catPeopleTarot-10.png'); */
   opacity: 0.5;
   background-position: center; 
   background-repeat: no-repeat; 
@@ -215,7 +206,6 @@
   border-radius: 15px;
   box-shadow: 0 0 12px 4px #5185978c;
   color: whitesmoke;
-  /* padding: 16px 32px; */
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
@@ -223,7 +213,6 @@
   transition: 0.3s;
   height: 450px;
   width: 250px;
-  /* width: 100%; */
   padding: 10%;
   margin: 15%;
 }
@@ -235,4 +224,4 @@
 
 .ArtistCards .CardBack .Text {
   padding-top: 25%;
-}
+} */
