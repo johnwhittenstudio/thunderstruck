@@ -3,6 +3,9 @@ import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 import classes from './Artists.module.css'
 import { FaInstagramSquare } from "react-icons/fa";
+import { GiSpiderWeb } from "react-icons/gi";
+
+
 
 const handleURL = (url) => {
   return () => window.open(url, "_blank")
@@ -58,13 +61,14 @@ const ArtistCards = () => {
   return (
     <>
       <div className={classes.Artist}>
+          <h2 className={classes.Header}>meet the crüe</h2>
       <div className={classes.Container}>
 {/* Jessi */}
             <ReactCardFlip isFlipped={isFlipped1} flipDirection="horizontal">
               <div className={classes.Row}>
                 <div className={classes.Column}>
                   <div className={classes.CardFront} >
-                    <div onClick={handleClick1}>
+                    <div onClick={handleClick1} style={{cursor: 'pointer'}}>
                       <div className={classes.Text}>
                         <h1>Dr. Jessi DiTillio</h1>
                         <h3>Los Angeles, California</h3>
@@ -77,13 +81,19 @@ const ArtistCards = () => {
               <div className={classes.Row}>
                 <div className={classes.Column}>
                   <div className={classes.CardBack} >
-                    <div onClick={handleClick1} >
+                    <div onClick={handleClick1} style={{cursor: 'pointer'}}>
                       <div className={classes.Text}>
-                        <h2>Dr. Jessi DiTillio is a curator, writer, and art historian. She earned her PhD in the Department of Art + Art History at the University of Texas at Austin. </h2>
+                          <h3>empress of thunder</h3>
+                          <h3>bridger of worlds</h3>
+                          <h3>crafter of galaxies</h3>
+                          <h3>earth sculptress</h3>
+                          <h3>V</h3>
+                          <h3>VI</h3>
                         <br/>
-                        <a href={'https://www.jessiditillio.com/'}><h3>website</h3></a>
-                        <FaInstagramSquare className={classes.Icon} color="#add8e6" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
+                        <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{paddingRight: '3%', borderRadius: '15px', cursor: 'pointer'}}
                           onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
+                        <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                          onClick={handleURL('https://www.jessiditillio.com/')} />
                       </div>
                     </div >
                   </div > 
@@ -95,11 +105,11 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardFront} >
-                  <div  onClick={handleClick2}>
+                  <div  onClick={handleClick2} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Katherine Spinella</h1>
                       <h3>Portland, Oregon</h3>
-                      <h4><em>Co-founding Co-director</em></h4>
+                      <h4><em>Co-director</em></h4>
                     </div>
                   </div >
                 </div >
@@ -108,13 +118,19 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardBack} >
-                  <div onClick={handleClick2} >
+                  <div onClick={handleClick2} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
-                      <h2>Dr. Jessi DiTillio is a curator, writer, and art historian. She earned her PhD in the Department of Art + Art History at the University of Texas at Austin. </h2>
+                      <h3>priestess of pigeons</h3>
+                      <h3>II</h3>
+                      <h3>III</h3>
+                      <h3>IV</h3>
+                      <h3>V</h3>
+                      <h3>VI</h3>
                       <br/>
-                      <a href={'https://www.jessiditillio.com/'}><h3>website</h3></a>
-                      <FaInstagramSquare className={classes.Icon} color="#add8e6" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
-                        onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
+                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://www.instagram.com/katherine.spinella/?hl=en')} />
+                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://www.katherinespinella.com/')} />                        
                     </div>
                   </div >
                 </div > 
@@ -126,11 +142,11 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardFront} >
-                  <div  onClick={handleClick3}>
+                  <div  onClick={handleClick3} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Michael E. Stephen</h1>
                       <h3>Los Angeles, California</h3>
-                      <h4><em>Co-founding Co-director</em></h4>
+                      <h4><em>Co-director</em></h4>
                     </div>
                   </div >
                 </div >
@@ -139,13 +155,19 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardBack} >
-                  <div onClick={handleClick3} >
+                  <div onClick={handleClick3} style={{cursor: 'pointer'}} >
                     <div className={classes.Text}>
-                      <h2>Dr. Jessi DiTillio is a curator, writer, and art historian. She earned her PhD in the Department of Art + Art History at the University of Texas at Austin. </h2>
+                      <h3>snake tamer</h3>
+                      <h3>shaper of lightning</h3>
+                      <h3>vortex architect</h3>
+                      <h3>the Care Bear stare</h3>                      
+                      <h3>transporter of monsters</h3>
+                      <h3>vision distortionist</h3>
                       <br/>
-                      <a href={'https://www.jessiditillio.com/'}><h3>website</h3></a>
-                      <FaInstagramSquare className={classes.Icon} color="#add8e6" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
-                        onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
+                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{padding: '2%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://www.instagram.com/michaelestephen/')} />
+                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://www.michaelestephen.com/')} />
                     </div>
                   </div >
                 </div > 
@@ -157,11 +179,11 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardFront}  >
-                  <div onClick={handleClick4}>
+                  <div onClick={handleClick4} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>John Whitten</h1>
                       <h3>Portland, Oregon</h3>
-                      <h4><em>Co-founding Co-director</em></h4>
+                      <h4><em>Co-director</em></h4>
                     </div>
                   </div >
                 </div >
@@ -170,13 +192,19 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardBack} >
-                  <div  onClick={handleClick4} >
+                  <div  onClick={handleClick4} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
-                      <h2>Dr. Jessi DiTillio is a curator, writer, and art historian. She earned her PhD in the Department of Art + Art History at the University of Texas at Austin. </h2>
+                      <h3>I</h3>
+                      <h3>II</h3>
+                      <h3>III</h3>
+                      <h3>IV</h3>
+                      <h3>V</h3>
+                      <h3>VI</h3>
                       <br/>
-                      <a href={'https://www.jessiditillio.com/'}><h3>website</h3></a>
-                      <FaInstagramSquare className={classes.Icon} color="#add8e6" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
+                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
+                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://www.johnwhitten.com/')} />
                     </div>
                   </div >
                 </div > 
@@ -188,7 +216,7 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardFront} >
-                  <div  onClick={handleClick5}>
+                  <div  onClick={handleClick5} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Ashlin Aronin</h1>
                       <h3>Portland, Oregon</h3>
@@ -201,13 +229,19 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardBack} >
-                  <div  onClick={handleClick5} >
+                  <div  onClick={handleClick5} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
-                      <h2>Dr. Jessi DiTillio is a curator, writer, and art historian. She earned her PhD in the Department of Art + Art History at the University of Texas at Austin. </h2>
+                      <h3>I</h3>
+                      <h3>II</h3>
+                      <h3>III</h3>
+                      <h3>IV</h3>
+                      <h3>V</h3>
+                      <h3>VI</h3>
                       <br/>
-                      <a href={'https://www.jessiditillio.com/'}><h3>website</h3></a>
-                      <FaInstagramSquare className={classes.Icon} color="#add8e6" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
-                        onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
+                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://www.instagram.com/scenicbanker/?hl=en')} />
+                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://ashlin.me/')} />
                     </div>
                   </div >
                 </div > 
@@ -219,7 +253,7 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardFront} >
-                  <div  onClick={handleClick6}>
+                  <div  onClick={handleClick6} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Rosana Aviña-Beam</h1>
                       <h3>Dallas, Texas</h3>
@@ -232,13 +266,19 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardBack} >
-                  <div  onClick={handleClick6} >
+                  <div  onClick={handleClick6} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
-                      <h2>Dr. Jessi DiTillio is a curator, writer, and art historian. She earned her PhD in the Department of Art + Art History at the University of Texas at Austin. </h2>
+                      <h3>I</h3>
+                      <h3>II</h3>
+                      <h3>III</h3>
+                      <h3>IV</h3>
+                      <h3>V</h3>
+                      <h3>VI</h3>
                       <br/>
-                      <a href={'https://www.jessiditillio.com/'}><h3>website</h3></a>
-                      <FaInstagramSquare className={classes.Icon} color="#add8e6" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
-                        onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
+                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://www.instagram.com/rosana_avina/')} />
+                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://www.etsy.com/ca/shop/RnRHandmadeStudio?ref=profile_header')} />
                     </div>
                   </div >
                 </div > 
@@ -250,7 +290,7 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardFront}  >
-                  <div onClick={handleClick7}>
+                  <div onClick={handleClick7} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Robert Collier Beam</h1>
                       <h3>Dallas, Texas</h3>
@@ -263,13 +303,19 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardBack} >
-                  <div  onClick={handleClick7} >
+                  <div  onClick={handleClick7} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
-                      <h2>Dr. Jessi DiTillio is a curator, writer, and art historian. She earned her PhD in the Department of Art + Art History at the University of Texas at Austin. </h2>
+                      <h3>I</h3>
+                      <h3>II</h3>
+                      <h3>III</h3>
+                      <h3>IV</h3>
+                      <h3>V</h3>
+                      <h3>VI</h3>
                       <br/>
-                      <a href={'https://www.jessiditillio.com/'}><h3>website</h3></a>
-                      <FaInstagramSquare className={classes.Icon} color="#add8e6" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
-                        onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
+                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://www.instagram.com/robertcbeam/')} />
+                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://www.robertcollierbeam.com/')} />
                     </div>
                   </div >
                 </div > 
@@ -281,7 +327,7 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardFront} >
-                  <div  onClick={handleClick8}>
+                  <div  onClick={handleClick8} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Kristin Hough</h1>
                       <h3>Reno, Nevada</h3>
@@ -294,13 +340,19 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardBack}  >
-                  <div onClick={handleClick8} >
+                  <div onClick={handleClick8} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
-                      <h2>Dr. Jessi DiTillio is a curator, writer, and art historian. She earned her PhD in the Department of Art + Art History at the University of Texas at Austin. </h2>
+                      <h3>I</h3>
+                      <h3>II</h3>
+                      <h3>III</h3>
+                      <h3>IV</h3>
+                      <h3>V</h3>
+                      <h3>VI</h3>
                       <br/>
-                      <a href={'https://www.jessiditillio.com/'}><h3>website</h3></a>
-                      <FaInstagramSquare className={classes.Icon} color="#add8e6" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
-                        onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
+                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://www.instagram.com/keekshough/')} />
+                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('http://www.kristinhough.com/')} />
                     </div>
                   </div >
                 </div > 
@@ -312,7 +364,7 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardFront}  >
-                  <div onClick={handleClick9}>
+                  <div onClick={handleClick9} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Morgan Rosskopf</h1>
                       <h3>Portland, Oregon</h3>
@@ -325,13 +377,19 @@ const ArtistCards = () => {
             <div className={classes.Row}>
               <div className={classes.Column}>
                 <div className={classes.CardBack} >
-                  <div  onClick={handleClick9} >
+                  <div  onClick={handleClick9} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
-                      <h2>Dr. Jessi DiTillio is a curator, writer, and art historian. She earned her PhD in the Department of Art + Art History at the University of Texas at Austin. </h2>
+                      <h3>I</h3>
+                      <h3>II</h3>
+                      <h3>III</h3>
+                      <h3>IV</h3>
+                      <h3>V</h3>
+                      <h3>VI</h3>
                       <br/>
-                      <a href={'https://www.jessiditillio.com/'}><h3>website</h3></a>
-                      <FaInstagramSquare className={classes.Icon} color="#add8e6" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
-                        onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
+                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{padding: '1%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('https://www.instagram.com/morganrosskopf_studio/?hl=en')} />
+                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                        onClick={handleURL('http://morganrosskopf.com/')} />
                     </div>
                   </div >
                 </div > 

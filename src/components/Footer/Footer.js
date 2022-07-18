@@ -10,20 +10,16 @@ const Footer = () => {
   return ( 
     <div className={classes.Footer}>
       <div className={classes.Row} id="footer">
-        <div className={classes.FooterText}>
-          <h4 style={{color: 'grey'}}>© 2022 thunderstruck</h4>
-        </div>  
-        <div className={classes.FooterIcons}>
-          <FaYoutube className={classes.Icon} color="#518597" size='30px' style={{padding: '1%'}}
-          onClick={handleURL('https://www.youtube.com/channel/UC-V6tMaHcYExkqCy-NWzTxQ/featured')} />
-        {/* <div className={classes.FooterIcons}>
-        </div> */}
-          <FaInstagramSquare className={classes.Icon} color="#518597" size='30px' style={{padding: '1%'}}
-          onClick={handleURL('https://www.instagram.com/thunderstruckcollective/')} />
-        {/* <div className={classes.FooterIcons}>
-        </div> */}
 
+        <div className={classes.FooterIcons}>
+          <FaYoutube className={classes.Icon} color="grey" size='30px' style={{padding: '1%'}}
+          onClick={handleURL('https://www.youtube.com/channel/UC-V6tMaHcYExkqCy-NWzTxQ/featured')} />
+          <FaInstagramSquare className={classes.Icon} color="grey" size='30px' style={{padding: '1%'}}
+          onClick={handleURL('https://www.instagram.com/thunderstruckcollective/')} />
         </div>
+        <div className={classes.FooterText}>
+          <p style={{color: 'grey'}}>© 2022 thunderstruck collective</p>
+        </div>  
       </div>
     </div>
   );

@@ -2,7 +2,8 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 .NavBar {
-  background-color: #191D1F;
+  background-image: linear-gradient(black, #191d1f); 
+  /* background-color: #191D1F; */
   height: 80px;
   width: 100%;
   position: fixed;
