@@ -1,12 +1,11 @@
 .Exhibitions {
   padding-top: 7%;
   margin: 0% 10%;
-  padding-bottom: 5%;
 }
 
-/* .Exhibitions {
-  background-color: rgb(0, 85, 255);
-} */
+.Exhibitions .Index{
+  padding-bottom: 50%;
+}
 
 .Exhibitions .HeaderContainer {
   display: flex;
@@ -15,76 +14,57 @@
 }
 
 .Exhibitions .Container {
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 80%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Exhibitions .Row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Exhibitions .Container img {
+  max-width: 100%;
+  border: 1px solid #518597;
+  box-shadow: 0 0 12px 4px #5185978c;
+}
+
+.Exhibitions .Container .blockColLeft{
+  flex: 1;
+  padding-left: 5%;
+  position: absolute;
+  max-width: 44%;
+  left: 0;
+}
+
+.Exhibitions .Container .blockColRight{
+  flex: 2;
+  padding-right: 5%;
+  position: absolute;
+  max-width: 44%;
+  right: 0;
 }
 
 .Exhibitions .mySwiper .swiperSlide img {
   max-width: 70%;
   padding-left: 15%;
-  /* padding-top: 2%; */
+  padding-top: 1%;
   object-fit: cover;
 }
 
-/* .Exhibitions .swiperNavNext .swiperNavPrev .swiper-button-prev {
-  top: 50%;
-  position: absolute;
-  color: white !important;
-  padding-left: 10%;
-  transform: translateY(-50%);
-  width: 50px;
-  height: 50px;
-  z-index: 1;
-  cursor: pointer;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-} */
-
-.Exhibition .SwiperNavPrev swiper-button-prev {
-  /* left:0; */
-  color: white !important;
-  /* background-image: url('./../img/carousel/arrow_left.png'); */
-}
-
-.SwiperNavPrev .swiper-button-next .swiper-rtl .swiper-button-prev {
-  color: white !important;
-}
-.swiperNavNext {
-  /* right:0; */
-  color: white !important;
-  /* background-image: url('./../img/carousel/arrow_right.png'); */
-}
-
-.Exhibitions .swiperNavPrev { color: red !important }
-
-.Exhibitions .Item {
-  min-height: 40rem; 
-  min-width: 30rem;
-  width: 100%;
-  /* padding: 20px; */
-}
-
-.Item img {
-  width: 1000px;
-  height: 100%;
-  /* border-radius: 1rem; */
-  pointer-events: none;
-}
-
-.InnerCarousel {
+.Exhibitions .Container .Text {
   display: flex;
-  width: 100%;
-  background: #191d1f;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2%;
 }
 
-.Carousel {
-  width: 100%;
-  cursor: grab;
-  overflow: hidden;
-  background: #191d1f;
-}
-
-.ExhibitionText h4 {
+.ExhibitionText p {
   display: flex;
   align-items: center;
   justify-content: center;

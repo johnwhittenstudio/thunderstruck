@@ -1,7 +1,18 @@
 .Trips {
-  padding-top: 9%;
-  padding-bottom: 40%;
+  padding-top: 7%;
+  margin: 0% 10%;
 }
+
+.Trips .Index{
+  padding-bottom: 50%;
+}
+
+.Trips .HeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .Trips .Container {
   padding-left: 10%;
@@ -10,7 +21,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* border: 1px solid gray; */
+}
+
+.Trips .Row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .Trips .Container img {
@@ -26,7 +42,6 @@
   position: absolute;
   max-width: 44%;
   left: 0;
-  /* border: 1px solid gray; */
 }
 
 .Trips .Container .blockColRight{
@@ -37,10 +52,11 @@
   right: 0;
 }
 
-.Trips .Row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.Trips .mySwiper .swiperSlide img {
+  max-width: 70%;
+  padding-left: 15%;
+  padding-top: 1%;
+  object-fit: cover;
 }
 
 .Trips .Container .Text {
@@ -48,4 +64,12 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 2%;
+}
+
+.TripsText p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: light;
+  padding-top: 2%;
 }

@@ -1,9 +1,13 @@
 .Book {
-  /* background: red; */
-  padding-top: 10%;
-  /* padding-bottom: 10%; */
+  padding-top: 7%;
+  /* padding-bottom: 2%; */
+}
 
-  /* padding-right: 10%; */
+.Book .Header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 1%;
 }
 
 .Book .Container {

@@ -26,17 +26,17 @@ const Navbar = () => {
           <NavLink to="/artists" activeStyle>
             artists
           </NavLink>
-          <NavLink to="/book" activeStyle>
-            book
+          <NavLink to="/trips" activeStyle>
+            trips
           </NavLink>
           <NavLink to="/exhibitions" activeStyle>
             exhibitions
           </NavLink>
+          <NavLink to="/books" activeStyle>
+            books
+          </NavLink>
           <NavLink to="/shop" activeStyle>
             shop
-          </NavLink>
-          <NavLink to="/trips" activeStyle>
-            trips
           </NavLink>
           <div className={classes.Hamburger}>
           <Hamburger className={classes.Hamburger}

@@ -1,24 +1,27 @@
 import React from "react";
-import { FaYoutube, FaInstagramSquare } from "react-icons/fa";
+// import { FaYoutube, FaInstagramSquare } from "react-icons/fa";
+import BoltTwoToneIcon from '@mui/icons-material/BoltTwoTone'
 import classes from './Footer.module.css'
 
-const handleURL = (url) => {
-  return () => window.open(url, "_blank")
-}
+// const handleURL = (url) => {
+//   return () => window.open(url, "_blank")
+// }
 
 const Footer = () => {
   return ( 
     <div className={classes.Footer}>
       <div className={classes.Row} id="footer">
 
-        <div className={classes.FooterIcons}>
+        {/* <div className={classes.FooterIcons}>
           <FaYoutube className={classes.Icon} color="grey" size='30px' style={{padding: '1%'}}
           onClick={handleURL('https://www.youtube.com/channel/UC-V6tMaHcYExkqCy-NWzTxQ/featured')} />
           <FaInstagramSquare className={classes.Icon} color="grey" size='30px' style={{padding: '1%'}}
           onClick={handleURL('https://www.instagram.com/thunderstruckcollective/')} />
-        </div>
+        </div> */}
         <div className={classes.FooterText}>
+          <BoltTwoToneIcon style={{color: 'grey'}}/>
           <p style={{color: 'grey'}}>© 2022 thunderstruck collective</p>
+          <BoltTwoToneIcon style={{color: 'grey'}}/>
         </div>  
       </div>
     </div>
@@ -26,6 +29,10 @@ const Footer = () => {
 }
 
 export default Footer;
+
+
+
+
 
 // import React from "react";
 // import {
