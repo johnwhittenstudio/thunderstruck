@@ -7,6 +7,7 @@ export default function Product(props) {
     <div className={classes.merchCard}>
       <img className={classes.small} src={product.image} alt={product.name} />
       <h3>{product.name}</h3>
+      <p style={{fontSize: "0.9rem", color: "lightgrey"}}>{product.description}</p>
       <div>${product.price}.00</div>
       <div>
         <center>

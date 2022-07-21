@@ -59,7 +59,7 @@ const Page = React.forwardRef((props, ref) => {
 const Book = (props) => {
   return (
     <div className={classes.Book}>
-      <h2 className={classes.Header}>view our publications</h2>
+      {/* <h2 className={classes.Header}>browse our publications</h2> */}
       <div className={classes.Container}>
         <HTMLFlipBook 
           width={450} 

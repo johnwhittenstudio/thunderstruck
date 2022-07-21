@@ -1,6 +1,87 @@
 .Book {
-  padding-top: 7%;
+  padding-top: 10%;
   /* padding-bottom: 2%; */
+}
+
+.Books {
+  padding-top: 7%;
+  padding-bottom: 2%;
+}
+
+.Book .Header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 1%;
+}
+
+.BooksIndex .Header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.Book .Container {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.BooksIndex .Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.BooksIndex .Column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.BooksIndex .Row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.BooksIndex .Container .Row .BookCover {
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  border: 0.5px solid #5185978c;
+  /* border-radius: 17px; */
+  box-shadow: 0 0 12px 4px #5185978c;
+  color: whitesmoke;
+  /* padding: 16px; */
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 20px;
+  opacity: 0.8;
+  transition: 0.3s;
+  max-width: 325px;
+  padding: 1px;
+  /* width: 80%; */
+}
+
+.BooksIndex .Books {
+  max-width: 300px;
+  margin-right: 5%;
+
+}
+
+.BooksIndex .Zine1 {
+  max-width: 300px;
+  margin-right: 5%;
+
 }
 
 .Book .Header {

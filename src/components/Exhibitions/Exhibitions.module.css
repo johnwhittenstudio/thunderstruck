@@ -4,7 +4,7 @@
 }
 
 .Exhibitions .Index{
-  padding-bottom: 50%;
+  padding-bottom: 52%;
 }
 
 .Exhibitions .HeaderContainer {
@@ -31,6 +31,7 @@
 .Exhibitions .Container img {
   max-width: 100%;
   border: 1px solid #518597;
+  /* padding: 2px; */
   box-shadow: 0 0 12px 4px #5185978c;
 }
 
@@ -69,4 +70,13 @@
   align-items: center;
   justify-content: center;
   font-weight: light;
+}
+
+.Exhibitions .swiperSlide p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: light;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }

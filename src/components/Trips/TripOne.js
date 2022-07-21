@@ -48,8 +48,9 @@ const Trips = () => {
         }}
         >
           <SwiperSlide className={classes.swiperSlide}>
-            <div className={classes.img}>
-              <img src={tlf_01} alt="" />
+            <img src={tlf_01} alt="" />
+            <div className={classes.TripsText}>
+              <p style={{color: "grey"}}>photo credit: John Whitten </p>
             </div>
           </SwiperSlide>
           {/* <SwiperSlide className={classes.swiperSlide}>
@@ -57,15 +58,27 @@ const Trips = () => {
           </SwiperSlide> */}
           <SwiperSlide className={classes.swiperSlide}>
             <img src={tlf_03} alt="" />
+            <div className={classes.TripsText}>
+              <p style={{color: "grey"}}>photo credit: John Whitten </p>
+            </div>
           </SwiperSlide>
           <SwiperSlide className={classes.swiperSlide}>
             <img src={tlf_04} alt="" />
+            <div className={classes.TripsText}>
+              <p style={{color: "grey"}}>photo credit: John Whitten </p>
+            </div>
           </SwiperSlide>
           <SwiperSlide className={classes.swiperSlide}>
             <img src={vla_01} alt="" />
+            <div className={classes.TripsText}>
+              <p style={{color: "grey"}}>photo credit: John Whitten </p>
+            </div>
           </SwiperSlide>
           <SwiperSlide className={classes.swiperSlide}>
             <img src={vla_02} alt="" />
+            <div className={classes.TripsText}>
+              <p style={{color: "grey"}}>photo credit: John Whitten </p>
+            </div>
           </SwiperSlide>
 
           <div className={classes.SwiperNavPrev} ref={swiperNavPrevRef}></div>
@@ -78,9 +91,7 @@ const Trips = () => {
           watchSlidesProgress
           onSwiper={setThumbsSwiper}
         />
-      <div className={classes.TripsText}>
-      <p style={{color: "grey"}}>photo credit: John Whitten </p>
-      </div>
+
     </div>
     </main>
   );

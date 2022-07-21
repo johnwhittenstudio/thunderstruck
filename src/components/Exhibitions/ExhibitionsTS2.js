@@ -53,6 +53,7 @@ const Exhibitions = () => {
         <SwiperSlide className={classes.swiperSlide}>
           <div className={classes.img}>
             <img src={ts2_01} alt="" />
+          <p>works depicted left to right by Kristin Hough, Jessi DiTillio, John Whitten, Katherine Spinella, Michael E. Stephen, and Morgan Rosskopf</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
