@@ -71,7 +71,7 @@ const ArtistCards = () => {
                     <div onClick={handleClick1} style={{cursor: 'pointer'}}>
                       <div className={classes.Text}>
                         <h1>Dr. Jessi DiTillio</h1>
-                        <h3>Los Angeles, California</h3>
+                        <h4>Los Angeles, California</h4>
                         <h4><em>Co-director, Curator</em></h4>
                       </div>
                     </div >
@@ -83,16 +83,16 @@ const ArtistCards = () => {
                   <div className={classes.CardBack} >
                     <div onClick={handleClick1} style={{cursor: 'pointer'}}>
                       <div className={classes.Text}>
-                          <h3>thunder empress</h3>
-                          <h3>celestial coreographer</h3>
-                          <h3>crafter of galaxies</h3>
-                          <h3>earth sculptress</h3>
-                          <h3>language enchanter</h3>
-                          <h3>adventure medium</h3>
+                          <h3 >thunder empress</h3>
+                          <h3 >celestial coreographer</h3>
+                          <h3 >crafter of galaxies</h3>
+                          <h3 >earth sculptress</h3>
+                          <h3 >language enchanter</h3>
+                          <h3 >adventure medium</h3>
                         <br/>
-                        <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{paddingRight: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                        <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingRight: '3%', borderRadius: '15px', cursor: 'pointer'}}
                           onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
-                        <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                        <GiSpiderWeb className={classes.Icon} color="#092765" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
                           onClick={handleURL('https://www.jessiditillio.com/')} />
                       </div>
                     </div >
@@ -108,7 +108,7 @@ const ArtistCards = () => {
                   <div  onClick={handleClick2} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Katherine Spinella</h1>
-                      <h3>Portland, Oregon</h3>
+                      <h4>Portland, Oregon</h4>
                       <h4><em>Co-director</em></h4>
                     </div>
                   </div >
@@ -122,14 +122,14 @@ const ArtistCards = () => {
                     <div className={classes.Text}>
                       <h3>priestess of pigeons</h3>
                       <h3>sorcerer of signs</h3>
-                      <h3>contortion enticer</h3>
+                      <h3>contortion enchantress</h3>
                       <h3>prophet of feasts</h3>
-                      <h3>V</h3>
-                      <h3>VI</h3>
+                      <h3>display cartographer</h3>
+                      <h3>gatherer of instances</h3>
                       <br/>
-                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.instagram.com/katherine.spinella/?hl=en')} />
-                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <GiSpiderWeb className={classes.Icon} color="#092765" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.katherinespinella.com/')} />                        
                     </div>
                   </div >
@@ -145,7 +145,7 @@ const ArtistCards = () => {
                   <div  onClick={handleClick3} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Michael E. Stephen</h1>
-                      <h3>Los Angeles, California</h3>
+                      <h4>Los Angeles, California</h4>
                       <h4><em>Co-director</em></h4>
                     </div>
                   </div >
@@ -164,9 +164,9 @@ const ArtistCards = () => {
                       <h3>transporter of monsters</h3>
                       <h3>vision distortionist</h3>
                       <br/>
-                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.instagram.com/michaelestephen/')} />
-                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <GiSpiderWeb className={classes.Icon} color="#092765" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.michaelestephen.com/')} />
                     </div>
                   </div >
@@ -182,7 +182,7 @@ const ArtistCards = () => {
                   <div onClick={handleClick4} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>John Whitten</h1>
-                      <h3>Portland, Oregon</h3>
+                      <h4>Portland, Oregon</h4>
                       <h4><em>Co-director</em></h4>
                     </div>
                   </div >
@@ -201,9 +201,9 @@ const ArtistCards = () => {
                       <h3>V</h3>
                       <h3>VI</h3>
                       <br/>
-                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
-                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <GiSpiderWeb className={classes.Icon} color="#092765" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.johnwhitten.com/')} />
                     </div>
                   </div >
@@ -219,7 +219,7 @@ const ArtistCards = () => {
                   <div  onClick={handleClick5} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Ashlin Aronin</h1>
-                      <h3>Portland, Oregon</h3>
+                      <h4>Portland, Oregon</h4>
                       <h4><em>Member since 2020</em></h4>
                     </div>
                   </div >
@@ -238,9 +238,9 @@ const ArtistCards = () => {
                       <h3>V</h3>
                       <h3>VI</h3>
                       <br/>
-                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.instagram.com/scenicbanker/?hl=en')} />
-                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <GiSpiderWeb className={classes.Icon} color="#092765" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://ashlin.me/')} />
                     </div>
                   </div >
@@ -256,7 +256,7 @@ const ArtistCards = () => {
                   <div  onClick={handleClick6} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Rosana Aviña-Beam</h1>
-                      <h3>Dallas, Texas</h3>
+                      <h4>Dallas, Texas</h4>
                       <h4><em>Member since 2018</em></h4>
                     </div>
                   </div >
@@ -275,9 +275,9 @@ const ArtistCards = () => {
                       <h3>V</h3>
                       <h3>VI</h3>
                       <br/>
-                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.instagram.com/rosana_avina/')} />
-                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <GiSpiderWeb className={classes.Icon} color="#092765" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.etsy.com/ca/shop/RnRHandmadeStudio?ref=profile_header')} />
                     </div>
                   </div >
@@ -293,7 +293,7 @@ const ArtistCards = () => {
                   <div onClick={handleClick7} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Robert Collier Beam</h1>
-                      <h3>Dallas, Texas</h3>
+                      <h4>Dallas, Texas</h4>
                       <h4><em>Member since 2018</em></h4>
                     </div>
                   </div >
@@ -312,9 +312,9 @@ const ArtistCards = () => {
                       <h3>V</h3>
                       <h3>VI</h3>
                       <br/>
-                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.instagram.com/robertcbeam/')} />
-                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <GiSpiderWeb className={classes.Icon} color="#092765" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.robertcollierbeam.com/')} />
                     </div>
                   </div >
@@ -330,7 +330,7 @@ const ArtistCards = () => {
                   <div  onClick={handleClick8} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Kristin Hough</h1>
-                      <h3>Reno, Nevada</h3>
+                      <h4>Reno, Nevada</h4>
                       <h4><em>Member since 2020</em></h4>
                     </div>
                   </div >
@@ -349,9 +349,9 @@ const ArtistCards = () => {
                       <h3>V</h3>
                       <h3>VI</h3>
                       <br/>
-                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.instagram.com/keekshough/')} />
-                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <GiSpiderWeb className={classes.Icon} color="#092765" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('http://www.kristinhough.com/')} />
                     </div>
                   </div >
@@ -367,7 +367,7 @@ const ArtistCards = () => {
                   <div onClick={handleClick9} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Morgan Rosskopf</h1>
-                      <h3>Portland, Oregon</h3>
+                      <h4>Portland, Oregon</h4>
                       <h4><em>Member since 2020</em></h4>
                     </div>
                   </div >
@@ -386,9 +386,9 @@ const ArtistCards = () => {
                       <h3>V</h3>
                       <h3>VI</h3>
                       <br/>
-                      <FaInstagramSquare className={classes.Icon} color="#19191b" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.instagram.com/morganrosskopf_studio/?hl=en')} />
-                      <GiSpiderWeb className={classes.Icon} color="#19191b" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                      <GiSpiderWeb className={classes.Icon} color="#092765" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('http://morganrosskopf.com/')} />
                     </div>
                   </div >

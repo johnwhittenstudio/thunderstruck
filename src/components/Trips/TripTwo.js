@@ -54,67 +54,67 @@ const Trips = () => {
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_01} alt="" />
           <div className={classes.TripsText}>
-            <p style={{color: "grey"}}>photo credit: John Whitten </p>
+            <p >photo credit: John Whitten </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_02} alt="" />
           <div className={classes.TripsText}>
-            <p style={{color: "grey"}}>photo credit: John Whitten </p>
+            <p >photo credit: John Whitten </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_03} alt="" />
           <div className={classes.TripsText}>
-            <p style={{color: "grey"}}>photo credit: John Whitten </p>
+          <p >photo credit: John Whitten </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_04} alt="" />
-          <div className={classes.TripsText}>
-            <p style={{color: "grey"}}>photo credit: John Whitten </p>
+          <div className={classes.TripsText}>            
+          <p >photo credit: John Whitten </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_06} alt="" />
           <div className={classes.TripsText}>
-            <p style={{color: "grey"}}>photo credit: John Whitten </p>
+          <p >photo credit: John Whitten </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_05} alt="" />
           <div className={classes.TripsText}>
-            <p style={{color: "grey"}}>photo credit: John Whitten </p>
+          <p >photo credit: John Whitten </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_08} alt="" />
           <div className={classes.TripsText}>
-            <p style={{color: "grey"}}>photo credit: John Whitten </p>
+          <p >photo credit: John Whitten </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_07} alt="" />
           <div className={classes.TripsText}>
-            <p style={{color: "grey"}}>photo credit: John Whitten </p>
+          <p >photo credit: John Whitten </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_11} alt="" />
           <div className={classes.TripsText}>
-            <p style={{color: "grey"}}>photo credit: John Whitten </p>
+          <p >photo credit: John Whitten </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_10} alt="" />
           <div className={classes.TripsText}>
-            <p style={{color: "grey"}}>photo credit: John Whitten </p>
+          <p >photo credit: John Whitten </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_09} alt="" />
           <div className={classes.TripsText}>
-            <p style={{color: "grey"}}>photo credit: John Whitten </p>
+          <p >photo credit: John Whitten </p>
           </div>
         </SwiperSlide>
       

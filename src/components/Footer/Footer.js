@@ -19,9 +19,9 @@ const Footer = () => {
           onClick={handleURL('https://www.instagram.com/thunderstruckcollective/')} />
         </div> */}
         <div className={classes.FooterText}>
-          <BoltTwoToneIcon style={{color: 'grey'}}/>
-          <p style={{color: 'grey'}}>© 2022 thunderstruck collective</p>
-          <BoltTwoToneIcon style={{color: 'grey'}}/>
+          <BoltTwoToneIcon style={{color: '#87bcf9'}}/>
+          <p style={{color: '#87bcf9'}}>© 2022 thunderstruck collective</p>
+          <BoltTwoToneIcon style={{color: '#87bcf9'}}/>
         </div>  
       </div>
     </div>

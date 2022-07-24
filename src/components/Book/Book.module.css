@@ -6,6 +6,7 @@
 .Books {
   padding-top: 7%;
   padding-bottom: 2%;
+  color: black;
 }
 
 .Book .Header {
@@ -53,22 +54,26 @@
   padding-right: 5%;
 }
 
+.BooksIndex h1 h2 h3 h4 h5 p {
+  color: black;
+}
+
 .BooksIndex .Container .Row .BookCover {
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
-  border: 0.5px solid #5185978c;
+  border: 0.5px solid #518597;
   /* border-radius: 17px; */
-  box-shadow: 0 0 12px 4px #5185978c;
-  color: whitesmoke;
+  box-shadow: 0 0 12px 4px #c5cee0;
+  color: black;
   /* padding: 16px; */
   text-align: center;
   font-size: 16px;
   margin: 20px 20px;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   transition: 0.3s;
   max-width: 325px;
-  padding: 1px;
+  /* padding: 1px; */
   /* width: 80%; */
 }
 

@@ -50,7 +50,7 @@ const Trips = () => {
           <SwiperSlide className={classes.swiperSlide}>
             <img src={tlf_01} alt="" />
             <div className={classes.TripsText}>
-              <p style={{color: "grey"}}>photo credit: John Whitten </p>
+            <p >photo credit: John Whitten </p>
             </div>
           </SwiperSlide>
           {/* <SwiperSlide className={classes.swiperSlide}>
@@ -59,25 +59,25 @@ const Trips = () => {
           <SwiperSlide className={classes.swiperSlide}>
             <img src={tlf_03} alt="" />
             <div className={classes.TripsText}>
-              <p style={{color: "grey"}}>photo credit: John Whitten </p>
+              <p >photo credit: John Whitten </p>
             </div>
           </SwiperSlide>
           <SwiperSlide className={classes.swiperSlide}>
             <img src={tlf_04} alt="" />
             <div className={classes.TripsText}>
-              <p style={{color: "grey"}}>photo credit: John Whitten </p>
+            <p >photo credit: John Whitten </p>
             </div>
           </SwiperSlide>
           <SwiperSlide className={classes.swiperSlide}>
             <img src={vla_01} alt="" />
             <div className={classes.TripsText}>
-              <p style={{color: "grey"}}>photo credit: John Whitten </p>
+            <p >photo credit: John Whitten </p>
             </div>
           </SwiperSlide>
           <SwiperSlide className={classes.swiperSlide}>
             <img src={vla_02} alt="" />
             <div className={classes.TripsText}>
-              <p style={{color: "grey"}}>photo credit: John Whitten </p>
+            <p >photo credit: John Whitten </p>
             </div>
           </SwiperSlide>
 

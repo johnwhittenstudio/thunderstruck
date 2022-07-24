@@ -2,13 +2,14 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 .NavBar {
-  background-image: linear-gradient(black, #191d1f); 
+  /* background-image: linear-gradient(#89befb00, #89befb);  */
   /* background-color: #191D1F; */
+  /* background-color: #89befb00; */
   height: 80px;
   width: 100%;
   position: fixed;
   z-index: 999;
-  opacity: 0.9;
+  opacity: 0.95;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,18 +33,33 @@
 
 .NavBar nav ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(1, 51, 160);
   /* font-weight: 900; */
   font-size: 1rem;
 }
 
+.NavBar a:hover {
+  color: red;
+}
+
+/* .NavBar a:active {
+  color: rgb(0, 31, 97);
+  text-shadow: 2px 2px #89befb;
+} */
+
+.NavBar a:visited {
+  color: rgb(0, 31, 97);
+  text-shadow: 2px 2px #ff0000;
+}
+
+
 .NavBar h1 {
-  color: #ffffff;
+  color: rgb(0, 31, 97);
   letter-spacing: 4px;
 }
 
 .NavBar .shine {
-  background: linear-gradient(90deg, #000, #fff, #000);
+  background: linear-gradient(90deg, #fedec7, #89befb, #022e61, #89befb, #fedec7);
   /* letter-spacing: 4px; */
   -webkit-background-clip: text;
   background-clip: text;
@@ -66,5 +82,5 @@
 .NavBar .Hamburger {
   /* right: 0; */
   padding-left: 20%;
-  color: whitesmoke;
+  color: rgb(0, 31, 97);
 }

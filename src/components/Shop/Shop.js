@@ -33,7 +33,7 @@ function Shop() {
     }
   };
   return (
-    <div className={classes.App}>
+    <div className={classes.Shop}>
       {/* <Header countCartItems={cartItems.length}></Header> */}
       <div className={classes.row}>
         <Main products={products} onAdd={onAdd}></Main>

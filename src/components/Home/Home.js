@@ -13,7 +13,7 @@ const particleOptions = {
     // Make a particle for this pixel if blue > 50 (range 0-255)
     return pixel.b > 150;
   },
-  color: ({ x, y, image }) => "#ffffff",
+  color: ({ x, y, image }) => "#020b1b",
   radius: () => Math.random() * 1.0 + 0.5,
   mass: () => 200,
   friction: () => 0.15,
@@ -38,13 +38,13 @@ export default function Home() {
       className={classes.Home}
       // width={(size.width)}
       // height={(size.height)}
-      scale={0.55}
+      scale={0.75}
       entropy={20}
       maxParticles={5000}
       particleOptions={particleOptions}
       mouseMoveForce={motionForce}
       touchMoveForce={motionForce}
-      backgroundColor="#191D1F"
+      backgroundColor="#191d1f00"
       // backgroundColor="red"
     />
   );

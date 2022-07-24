@@ -1,9 +1,9 @@
-.App {
+.Shop {
   padding-top: 7%;
   padding-bottom: 5%;
 }
 
-.App .Header {
+.Shop .Header {
   /* display: flex; */
   /* flex-wrap: wrap; */
   /* align-items: center; */
@@ -11,90 +11,92 @@
   padding-left: 40%;
 }
 
-.App body {
+.Shop body {
   font-family: Arial, Helvetica, sans-serif;
-  color:lightgray;
+  color:rgb(0, 31, 97);
 }
-.App h1, h2, h2 { 
+.Shop h1, h2, h3, p { 
   margin: 0.5rem 0;
-  color:lightgray; 
+  color:rgb(0, 31, 97); 
 }
-.App h1{
+.Shop h1{
   font-size: 2rem;
 }
-.App h2{
+.Shop h2{
   font-size: 1.2rem;
 }
-.App h3{
+.Shop h3{
   font-size: 1rem;
 }
-.App h5{
+.Shop h5{
   font-size: 0.8rem;
 }
-.App .merch{
+.Shop .merch{
   /* display: flex;
   align-items: center;
   justify-content: center; */
   margin-left: 15%;
 
 }
-.App a {
+.Shop a {
   text-decoration: none;
-  color:lightgray;
+  color:rgb(0, 31, 97);
 }
-.App .hr{
+.Shop .hr{
   border: 1px solid #000000;
   max-width: 85%;
   margin-left: 8%;
   border-radius: 5px;
   align-content: center;
 }
-.App #header {
+.Shop #header {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-between;
 }
-.App .row {
+.Shop .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.App .blockCol1{
+.Shop .blockCol1{
   flex: 1;
   padding-left: 5%;
   padding-right: 5%;
   position: fixed;
   width: 23%;
   right: 0;
+  color: rgb(0, 31, 97);
 }
-.App .blockCol2{
+.Shop .blockCol2{
   flex: 2;
   padding-left: 5%;
   max-width: 64%;
   left: 0;
+  color: rgb(0, 31, 97);
 }
-.App .block {
+.Shop .block {
   border: 2px solid black;
   background-color:#1B1C1E;
   padding: 1rem;
   margin: 1rem;
   border-radius: 0.5rem;
 }
-.App .merchCard{
+.Shop .merchCard{
   /* border: 2px solid black; */
   width: 30%;
   padding: 1%;
   /* margin-top: 1%; */
 }
-.App .row-center {
+.Shop .row-center {
   align-items: center;
 }
-.App img.small {
+.Shop img.small {
   max-width: 100%;
   margin-top: 2rem;
 }
-.App button {
+.Shop button {
   font-size: 0.8rem;
   padding: 0.2rem;
   margin-top: 0.8rem;
@@ -102,34 +104,35 @@
   border-radius: 0.5rem;
   height: 2rem;
   border: 0.1rem #404040 solid;
-  background-color: #518697;
-  color: lightgrey;
+  background-color: rgb(0, 31, 97);
+  color: #feddc7;
   width: 80%;
   justify-items: center;
   cursor: pointer;
 }
-.App button.add {
-  background-color: #518697;
+.Shop button.add {
+  background-color: rgb(0, 31, 97);
   width: 2rem; 
 }
-.App button.remove {
+.Shop button.remove {
   background-color: #6e0101;
   width: 2rem; 
 }
-.App .badge {
+.Shop .badge {
   background-color: #003548;
   border: none;
-  color: #ffffff;
+  color: rgb(0, 31, 97);
   width: 2rem;
 }
-.App .textRight {
+.Shop .textRight {
   text-align: right;
   margin-left: 2%;
+  color: rgb(0, 31, 97);
 }
-.App body {
+.Shop body {
   background-color: #1B1C1E;
 }
 
-.App .checkout {
+.Shop .checkout {
   width: 35%;
 }
