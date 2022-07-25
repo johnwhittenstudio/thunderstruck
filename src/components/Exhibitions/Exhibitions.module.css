@@ -12,13 +12,6 @@
   justify-content: center;
 }
 
-.Exhibitions .HeaderContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
 .ExhibitionsIndex .Header {
   display: flex;
   flex-wrap: wrap;
@@ -27,9 +20,6 @@
 }
 
 .Exhibitions .Container {
-  /* padding-left: 10%;
-  padding-right: 10%;
-  width: 80%; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -97,7 +87,7 @@ justify-content: space-between;
   /* border-radius: 17px; */
   box-shadow: 0 0 12px 4px #c5cee0;
   /* color: black; */
-  padding: 5px;
+  /* padding: 5px; */
   text-align: center;
   /* font-size: 16px; */
   margin-left: 15px;
@@ -146,7 +136,7 @@ justify-content: space-between;
 }
 
 .Exhibition .Swiper .Nav {
-  margin: 5%;
+  margin: 15%;
 }
 
 .Exhibition .Container .Text {
@@ -169,5 +159,5 @@ justify-content: space-between;
   justify-content: center;
   font-weight: light;
   padding-top: 1%;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
 }

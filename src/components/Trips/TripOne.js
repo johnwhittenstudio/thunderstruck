@@ -25,7 +25,7 @@ const Trips = () => {
 
   return (
     <main> 
-    <div className={classes.Trips}>
+    <div className={classes.Trip}>
       <div className={classes.HeaderContainer}><h2>New Mexico (2018 - 2019)</h2></div>
       
       <Swiper 

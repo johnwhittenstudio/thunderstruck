@@ -21,25 +21,24 @@ function TripsIndexPage({ trips }) {
           
     <>
     <div className={classes.Trips}>
-      <div className={classes.Index}>
+      <div className={classes.TripsIndex}>
+      <h2 className={classes.Header}>explore our trips</h2>
         <div className={classes.Container}>
           <div className={classes.Row}>
+          <div className={classes.Column}>
             <Link to="/trips/tlf">
-              <div className={classes.blockColLeft}>
                 <div className={classes.Text}>
                   <h2>New Mexico (2018 - 2019)</h2>
                 </div>
-                <img className={classes.CrueOne} src={tlfcrue} alt="me"></img>
-              </div>
+                <img className={classes.TripsCover} src={tlfcrue} alt="me"></img>
             </Link>
             <Link to="/trips/tst">
-              <div className={classes.blockColRight}>
                 <div className={classes.Text}>
                   <h2>Utah (2020 - 2021)</h2>
                 </div>
-              <img className={classes.CrueTwo} src={tstcrue} alt="me"></img>
-              </div>
+              <img className={classes.TripsCover} src={tstcrue} alt="me"></img>
             </Link>  
+            </div>
           </div>
         </div>
       </div>

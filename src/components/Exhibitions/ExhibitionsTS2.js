@@ -97,8 +97,8 @@ const Exhibitions = () => {
           onSwiper={setThumbsSwiper}
         />
       <div className={classes.ExhibitionText}>
-        <p style={{paddingTop: "2%", color: "grey"}}><em>Thunderstruck 2.0: black hole sun</em>, 2021, exhibition installation view at Carnation Contemporary in Portland, OR</p>
-        <p style={{color: "grey"}}>photo credit: John Whitten © 2022 </p>
+        <p style={{paddingTop: "1%"}}>Thunderstruck 2.0: black hole sun, 2021, exhibition installation view at Carnation Contemporary in Portland, OR</p>
+        <p >photo credit: John Whitten </p>
       </div>
     </div>
     </main>

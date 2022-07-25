@@ -41,7 +41,7 @@ const Exhibitions = () => {
   return (
     <main> 
     <div className={classes.Exhibition}>
-      <div className={classes.HeaderContainer}><h2>Thunderstruck 2.0: black hole sun</h2></div>
+      <div className={classes.HeaderContainer}><h2>Thunderstruck 1.0</h2></div>
       <Swiper 
         modules={[Thumbs, Navigation, Pagination]}
         watchSlidesProgress
@@ -64,7 +64,7 @@ const Exhibitions = () => {
         <SwiperSlide className={classes.swiperSlide}>
           <div className={classes.img}>
             <img src={ts1_01} alt="" />
-            <p style={{color: "grey"}}>works depicted left to right by Katherine Spinella, Jessi DiTillio, Rosana Aviña-Beam, Michael E. Stephen, Robert Collier Beam</p>
+            <p >works depicted left to right by Katherine Spinella, Jessi DiTillio, Rosana Aviña-Beam, Michael E. Stephen, Robert Collier Beam</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
@@ -146,8 +146,8 @@ const Exhibitions = () => {
           onSwiper={setThumbsSwiper}
         />
       <div className={classes.ExhibitionText}>
-        <p style={{paddingTop: "2%", color: "grey"}}><em>Thunderstruck 2.0: black hole sun</em>, 2021, exhibition installation view at Carnation Contemporary in Portland, OR</p>
-        <p style={{color: "grey"}}>photo credit: John Whitten © 2022 </p>
+        <p style={{paddingTop: "1%"}}>Thunderstruck 1.0, 2019, exhibition installation view at Carnation Contemporary in Portland, OR</p>
+        <p >photo credit: John Whitten </p>
       </div>
     </div>
     </main>

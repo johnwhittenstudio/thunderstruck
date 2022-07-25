@@ -10,6 +10,7 @@
   color: rgb(0, 31, 97);
 }
 
+
 .Artist .Container {
   margin-left: 10%;
   margin-right: 10%;
@@ -53,7 +54,7 @@
 }
 
 .Artist .CardBack {
-  background-image: url('./../img/artists/catPeopleTarot-back.png');
+  background-image: url('./../img/artists/catPeopleTarot-back75.png');
   /* background-image: linear-gradient(to bottom right, #edf0f0, #d3d4d4); */
   background-position: center; 
   background-repeat: no-repeat; 
