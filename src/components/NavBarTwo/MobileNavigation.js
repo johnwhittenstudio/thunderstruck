@@ -10,13 +10,13 @@ const MobileNavigation = () => {
 
 
   const hamburgerIcon = <CgMenu className={classes.Hamburger} 
-                          size='40px' color='white'
+                          size='40px' color='rgb(0, 31, 97)'
                           onClick={() => setOpen(!open)}
                           />
 
 
   const closeIcon = <CgClose className={classes.Hamburger} 
-                      size='40px' color='white'
+                      size='40px' color='rgb(0, 31, 97)'
                       onClick={() => setOpen(!open)}
                       />
 

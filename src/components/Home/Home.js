@@ -38,7 +38,7 @@ export default function Home() {
       className={classes.Home}
       // width={(size.width)}
       // height={(size.height)}
-      scale={0.75}
+      scale={0.60}
       entropy={20}
       maxParticles={5000}
       particleOptions={particleOptions}

@@ -1,4 +1,6 @@
 import {motion} from 'framer-motion'
+import { Link } from 'react-router-dom';
+import classes from './NavBar.module.css'
 
 const NavLinks = (props) => {
 
@@ -7,46 +9,75 @@ const NavLinks = (props) => {
 
   return ( 
     <ul>
+      <Link to="/" activeStyle>
+        <div className={classes.Logo}>
+        <div className={classes.shine}>
+          <h1><Link to="/">thunderstruck</Link></h1>
+        </div>
+        </div>
+      </Link>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}
         transition={{delay: 0.05}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/">Home</a>
+          <Link to="/about" activeStyle>
+            about
+          </Link>
       </motion.li>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}
         transition={{delay: 0.10}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#about">About</a>
+          <Link to="/artists" activeStyle>
+            artists
+          </Link>
       </motion.li>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}        
         transition={{delay: 0.20}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#skills">Skills</a>
+          <Link to="/trips" activeStyle>
+            trips
+          </Link>
       </motion.li>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}
         transition={{delay: 0.30}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#youtube">YouTube</a>
+          <Link to="/exhibitions" activeStyle>
+            exhibitions
+          </Link>
       </motion.li>
-      {/* <motion.li 
-        initial={animateFrom}
-        animate={animateTo}
-        onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#projects">Projects</a>
-      </motion.li> */}
       <motion.li 
         initial={animateFrom}
         animate={animateTo}
         transition={{delay: 0.40}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#contact">Contact</a>
+          <Link to="/books" activeStyle>
+            books
+          </Link>
+      </motion.li>
+      <motion.li 
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{delay: 0.50}}
+        onClick={() => props.isMobile && props.closeMobileMenu()}>
+          <Link to="/shop" activeStyle>
+            shop
+          </Link>
+      </motion.li>
+      <motion.li 
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{delay: 0.60}}
+        onClick={() => props.isMobile && props.closeMobileMenu()}>
+          <Link to="contact" activeStyle>
+            contact
+          </Link>
       </motion.li>
     </ul>
   );

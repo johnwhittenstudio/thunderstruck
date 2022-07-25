@@ -122,7 +122,7 @@ const ArtistCards = () => {
                     <div className={classes.Text}>
                       <h3>priestess of pigeons</h3>
                       <h3>sorcerer of signs</h3>
-                      <h3>contortion enchantress</h3>
+                      <h3>lounge enticer</h3>
                       <h3>prophet of feasts</h3>
                       <h3>display cartographer</h3>
                       <h3>gatherer of instances</h3>
@@ -195,7 +195,7 @@ const ArtistCards = () => {
                   <div onClick={handleClick4} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h3>priest of pigeons</h3>
-                      <h3>drafter of darkness</h3>
+                      <h3>particle renderer</h3>
                       <h3>III</h3>
                       <h3>IV</h3>
                       <h3>V</h3>

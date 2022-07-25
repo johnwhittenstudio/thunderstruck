@@ -13,11 +13,9 @@ const Navbar = () => {
         <NavMenu>
           <div className={classes.headerLogo}>
           <NavLink to="/" activeStyle>
-          {/* <BoltTwoToneIcon /> */}
             <div className={classes.shine}>
               <h1><Link to="/">thunderstruck</Link></h1>
-          </div>
-          {/* <BoltTwoToneIcon /> */}
+            </div>
           </NavLink>
             </div>
           <NavLink to="/about" activeStyle>

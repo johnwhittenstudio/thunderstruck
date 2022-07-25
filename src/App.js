@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar/NavBar';
+import Navbar from './components/NavBarTwo/NavBar';
 import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
@@ -22,6 +22,7 @@ import Shop from './../src/components/Shop/Shop';
 import Trips from './../src/components/Trips/Trips';
 import TripsTLF from './../src/components/Trips/TripOne';
 import TripsTST from './../src/components/Trips/TripTwo';
+import Contact from './components/Contact/ContactForm';
 
 
 
@@ -49,6 +50,7 @@ return (
         <Route path='/trips' element={<Trips/>} />
         <Route path='/trips/tlf' element={<TripsTLF/>} />
         <Route path='/trips/tst' element={<TripsTST/>} />
+        <Route path='/contact' element={<Contact/>} />
     </Routes>
     </Router>
     <Footer />

@@ -1,21 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta&family=Emilys+Candy&family=Grape+Nuts&family=Montserrat:wght@400;500;600;700&family=Nunito+Sans:wght@400;600;700&family=Orbitron:wght@500;700&family=Permanent+Marker&family=Prompt:ital,wght@0,300;1,500;1,700;1,900&family=Raleway:wght@400;500;600&display=swap');
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 * {
   margin: 0;
   font-family: "Allerta";
-  /* color: #ffffff; */
 }
 
 .NavBar {
-  background: black;
+  background-image: linear-gradient(#fedec7, #fedec7, #fedec7, #fedec7, #fedec7, #fedec700);
   height: 80px;
   width: 100%;
   position: fixed;
   z-index: 999;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.NavBar .Logo {
+  position: absolute;
+  left: 5%;
+  float:left;
+  /* padding-right:1%; */
+  margin-top:16px;
+  cursor: pointer;
+}
+
+.NavBar .shine {
+  background: linear-gradient(90deg, #fedec7, #89befb, #022e61, #89befb, #fedec7);
+  /* letter-spacing: 4px; */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  /* background-repeat: repeat; */
+  background-size: 80%;
+  animation: shine 9s linear infinite;
+  position: relative;
+}
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
 }
 
 .NavBar nav ul {
@@ -31,20 +61,28 @@
 
 .NavBar nav ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 31, 97);
   /* font-weight: 900; */
   font-size: 1rem;
 }
 
-.NavBar a:hover {
+/* .NavBar a:hover {
   border-bottom: 5px solid #c5d248;
+} */
+
+.NavBar a:active {
+  font-weight: bold;
+}
+
+.NavBar a:visited {
+  font-weight: bold;
 }
 
 .NavBar .MobileNavigation {
   display: none;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1100px) {
     .NavBar .Navigation {
       display: none;
     }
@@ -54,15 +92,24 @@
       align-items: center;
     }
 
+    .Logo {
+      display: none;
+
+    }
+
+    
+
     .NavBar nav ul {
       display: flex;
       flex-direction: column;
       position: absolute;
       top: 80px;
+      padding-top: 5%;
+      padding-bottom: 5%;
       right: 0;
       width: 100%;
-      background: #181818;
-      border-top: 2px solid #c5d248;
+      background: linear-gradient(90deg, #fedec7, #fedec7, #89befb);
+      /* border-top: 2px solid #c5d248; */
     }
 
     .NavBar nav ul li {
@@ -75,7 +122,7 @@
 
     .NavBar a:hover {
       border-bottom: none;
-      color: #c5d248;
+      font-weight: bold;
     }
 }
 

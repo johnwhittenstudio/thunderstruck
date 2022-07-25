@@ -40,7 +40,7 @@ const Exhibitions = () => {
 
   return (
     <main> 
-    <div className={classes.Exhibitions}>
+    <div className={classes.Exhibition}>
       <div className={classes.HeaderContainer}><h2>Thunderstruck 2.0: black hole sun</h2></div>
       <Swiper 
         modules={[Thumbs, Navigation, Pagination]}
@@ -134,9 +134,10 @@ const Exhibitions = () => {
         </SwiperSlide>
 
 
-      
+
         <div className={classes.SwiperNavPrev} ref={swiperNavPrevRef}></div>
         <div className={classes.SwiperNavNext} ref={swiperNavNextRef}></div>
+
       
       </Swiper>
       <Swiper
