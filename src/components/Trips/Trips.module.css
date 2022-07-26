@@ -2,7 +2,7 @@
 
 .Trips {
   padding-top: 5%;
-  padding-bottom: 3%;
+  padding-bottom: 4%;
 }
 
 .Trips .HeaderContainer {
@@ -32,13 +32,11 @@
 .Trips .Row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .Trips .Container img {
   max-width: 100%;
-  /* border: 1px solid #518597; */
-  /* padding: 2px; */
   box-shadow: 0 0 12px 4px #5185978c;
 }
 
@@ -53,8 +51,6 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  /* padding-left: 5%;
-  padding-right: 5%; */
 }
 
 .TripsIndex .Column {
@@ -80,23 +76,16 @@
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
-  /* border: 0.5px solid #518597; */
-  /* border-radius: 17px; */
   box-shadow: 0 0 12px 4px #c5cee0;
-  /* color: black; */
-  /* padding: 5px; */
   text-align: center;
-  /* font-size: 16px; */
   margin-left: 15px;
   margin-right: 15px;
-  /* opacity: 0.8; */
   transition: 0.3s;
   max-width: 700px;
 }
 
 
 .TripsIndex .TripsCover {
-  /* padding: 5px; */
   margin: 5%;
 }
 

@@ -1,6 +1,6 @@
 .ContactForm {
   padding-top: 5%;
-  padding-bottom: 3%;
+  padding-bottom: 4%;
 }
 
 .ContactForm .Header {
@@ -104,7 +104,7 @@
 
 .ContactForm .Logos img {
   width: 35px;
-  margin-top: 5%;
+  margin-top: 6%;
   padding: 2%;
   opacity: 50%;
 }

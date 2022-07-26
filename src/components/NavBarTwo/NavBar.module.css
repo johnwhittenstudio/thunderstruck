@@ -7,7 +7,8 @@
 }
 
 .NavBar {
-  background-image: linear-gradient(#fedec7, #fedec7, #fedec7, #fedec7, #fedec7, #fedec700);
+  /* background-image: linear-gradient(#fedec7, #fedec7, #fedec7, #fedec7, #fedec7, #fedec700); */
+  background-image: linear-gradient(#fffeac, #fffeac, #fffeac, #fffeac, #fffeac, #fffeac00);
   height: 80px;
   width: 100%;
   position: fixed;
@@ -28,7 +29,7 @@
 }
 
 .NavBar .shine {
-  background: linear-gradient(90deg, #fedec7, #89befb, #022e61, #89befb, #fedec7);
+  background: linear-gradient(90deg, #fffeac, #fedec7, #89befb, #022e61, #022e61, #89befb, #fedec7, #fffeac);
   /* letter-spacing: 4px; */
   -webkit-background-clip: text;
   background-clip: text;
@@ -111,13 +112,14 @@
       right: 0;
       width: 100%;
 
-      background: linear-gradient(180deg, #fedec7, #fedec7, #89befb, #022e61);
+      /* background: linear-gradient(180deg, #fedec7, #fedec7, #89befb, #022e61); */
+      background-image: linear-gradient(#fffeac, #fef4b5, #fedec7,#fedec7, #7dace4, #022e61);
       /* border-top: 2px solid #c5d248; */
     }
 
     .NavBar nav ul li {
       padding-left: 15%;
-      
+      padding-bottom: 2%;
     }
 
     .NavBar {
