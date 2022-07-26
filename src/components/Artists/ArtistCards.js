@@ -196,7 +196,7 @@ const ArtistCards = () => {
                     <div className={classes.Text}>
                       <h3>priest of pigeons</h3>
                       <h3>particle renderer</h3>
-                      <h3>III</h3>
+                      <h3>conjuror of reflections</h3>
                       <h3>IV</h3>
                       <h3>V</h3>
                       <h3>VI</h3>

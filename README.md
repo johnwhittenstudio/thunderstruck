@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# <p align="center"> ⚡ **Thunderstruck** ⚡ </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_June 18, 2022_
 
-## Available Scripts
+#### _React portfolio website for the Thunderstruck artist collective_
 
-In the project directory, you can run:
+#### By _**John Whitten**_
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. [Description](#description)
+2. [Technologies Used](#technologies)
+3. [Setup/Installation Requirements](#setup)
+4. [Known Bugs](#bugs)
+5. [Contact Information](#contact)
+6. [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description <a id="description"></a>
+A polished, professional, interactive, and accessible front-end portfolio site with images, audio, video, animations, etc. for Thunderstruck, which is a nomadic artist residency I co-founded in 2018 consisting of desert expeditions, art exhibitions, and publications by 9 artist participants.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### _Further Exploration_
+_Further exploration objectives:_
+- Include animated PDF of Thunderstruck book
+- Include interactive versions of John Whitten's pixel drawings
 
-### `npm run build`
+## Website Components Planning
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- <img src="./src/img/thunderstruck.png"> -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used <a id="technologies"></a>
+* React
+* JavaScript/JSX
+* Bootstrap
+* CSS
+* Material UI
+* NodeMailer
+* NPM
+* Particle Image
+* React Page Flip
+* Swiper
+* Webpack
 
-### `npm run eject`
+## Project Setup/Installation Instructions <a id="setup"></a>
+* Navigate to the directory in which you would like to clone this project.
+* Run `git clone https://github.com/johnwhittenstudio/thunderstruck.git` in terminal.
+* Run `cd thunderstruck` to navigate into new project directory.
+* Open the cloned repo in a text editor of your choice.
+* Run `npm install` to download all dependencies.
+* Run `npm run start` to start a live server and view projec in the browser.
+* Run `npm run test` to run tests.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Known Bugs <a id="bugs"></a>
+- _None._
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License <a id="license"></a>
+Copyright (c) 2022 _**John Whitten**_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact <a id="contact"></a>
+John Whitten [Email](mailto:johnwhitten.studio@gmail.com) • [LinkedIn](https://www.linkedin.com/in/johnwhitten-studio/) • [GitHub](https://github.com/johnwhittenstudio)
