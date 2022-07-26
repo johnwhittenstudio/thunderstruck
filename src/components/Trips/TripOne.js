@@ -91,7 +91,9 @@ const Trips = () => {
           watchSlidesProgress
           onSwiper={setThumbsSwiper}
         />
-
+      <div className={classes.TripsText}>
+        <p style={{paddingTop: "1%"}}>photo credit: John Whitten </p>
+      </div>
     </div>
     </main>
   );

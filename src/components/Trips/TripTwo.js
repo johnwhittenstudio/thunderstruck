@@ -30,7 +30,7 @@ const Trips = () => {
 
   return (
     <main> 
-    <div className={classes.Trips}>
+    <div className={classes.Trip}>
       <div className={classes.HeaderContainer}><h2>Utah ~ winter solstice 2020 / summer solstice 2021</h2></div>
       <Swiper 
         modules={[Thumbs, Navigation, Pagination]}
@@ -54,13 +54,13 @@ const Trips = () => {
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_01} alt="" />
           <div className={classes.TripsText}>
-            <p >photo credit: John Whitten </p>
+            <p >light painting at Nancy Holt's <em>&nbsp;Sun Tunnels&nbsp;</em> near Wendover, UT</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_02} alt="" />
           <div className={classes.TripsText}>
-            <p >photo credit: John Whitten </p>
+            <p >summer solstice sunset at Nancy Holt's <em>&nbsp;Sun Tunnels&nbsp;</em> near Wendover, UT </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
@@ -127,6 +127,9 @@ const Trips = () => {
           watchSlidesProgress
           onSwiper={setThumbsSwiper}
         />
+      <div className={classes.TripsText}>
+        <p style={{paddingTop: "1%"}} >photo credit: John Whitten </p>
+      </div>
     </div>
     </main>
   );
