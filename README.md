@@ -62,6 +62,7 @@ My capstone project for Epicodus is a polished, professional, interactive, respo
 ## Known Bugs <a id="bugs"></a>
 - _Contact Form doesn't yet successfully send email_
 - _Ecommerce not yet connected to Shop page Checkout_
+- _Deploying to GitHub pages resulted in some quirks that need fixed_
 
 ## License <a id="license"></a>
 Copyright (c) 2022 _**John Whitten**_
