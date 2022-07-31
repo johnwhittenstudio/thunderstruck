@@ -18,7 +18,7 @@ _July 31, 2022_
 ## Description <a id="description"></a>
 My capstone project for Epicodus is a polished, professional, interactive, responsive, and accessible front-end portfolio site with images, animations, and more for the Thunderstruck Collective, which is an ongoing nomadic artist residency I co-founded in 2018 consisting of desert expeditions, art exhibitions, and publications by 9 artist participants.
 
-<img src="./src/components/img/readme/TS-homePage.png>
+<img src="./src/components/img/readme/TS-homePage.png">
 
 #### _MVP_
 - Multi-page site
