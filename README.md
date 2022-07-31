@@ -1,6 +1,6 @@
 # <p align="center"> ⚡ **Thunderstruck** ⚡ </p>
 
-_June 18, 2022_
+_July 31, 2022_
 
 #### _React portfolio website for the Thunderstruck artist collective_
 
@@ -16,15 +16,22 @@ _June 18, 2022_
 6. [License](#license)
 
 ## Description <a id="description"></a>
-A polished, professional, interactive, and accessible front-end portfolio site with images, audio, video, animations, etc. for Thunderstruck, which is a nomadic artist residency I co-founded in 2018 consisting of desert expeditions, art exhibitions, and publications by 9 artist participants.
+My capstone project for Epicodus is a polished, professional, interactive, responsive, and accessible front-end portfolio site with images, animations, and more for the Thunderstruck Collective, which is an ongoing nomadic artist residency I co-founded in 2018 consisting of desert expeditions, art exhibitions, and publications by 9 artist participants.
 
+#### _MVP_
+- Multi-page site
+- Image carousel galleries
+- Include animated flipbook of Thunderstruck books
 
 #### _Further Exploration_
 _Further exploration objectives:_
-- Include animated PDF of Thunderstruck book
-- Include interactive versions of John Whitten's pixel drawings
+- Mobile responsive site
+- Interactive particle image on home page
+- Contact Form that sends email
+- Successfully deployed to GitHub pages with www.thunderstruckcollective.com domain
+- Ecommerce connected to Shop page Checkout
 
-## Website Components Planning
+<!-- ## Website Components Planning -->
 
 <!-- <img src="./src/img/thunderstruck.png"> -->
 
@@ -47,12 +54,13 @@ _Further exploration objectives:_
 * Run `git clone https://github.com/johnwhittenstudio/thunderstruck.git` in terminal.
 * Run `cd thunderstruck` to navigate into new project directory.
 * Open the cloned repo in a text editor of your choice.
-* Run `npm install` to download all dependencies.
-* Run `npm run start` to start a live server and view projec in the browser.
-* Run `npm run test` to run tests.
+* Run `npm install --legacy-peer-deps` to download all dependencies.
+* Run `npm run build` to build project.
+* Run `npm run start` to start a live server and view project in the browser.
 
 ## Known Bugs <a id="bugs"></a>
-- _None._
+- _Contact Form doesn't yet successfully send email_
+- _Ecommerce not yet connected to Shop page Checkout_
 
 ## License <a id="license"></a>
 Copyright (c) 2022 _**John Whitten**_
