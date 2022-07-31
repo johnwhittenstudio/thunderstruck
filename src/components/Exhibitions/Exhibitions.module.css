@@ -128,6 +128,7 @@ justify-content: space-between;
   align-items: center;
   justify-content: center;
   padding-bottom: 2%;
+  width: 50%;
 }
 
 .ExhibitionText p {
@@ -135,6 +136,7 @@ justify-content: space-between;
   align-items: center;
   justify-content: center;
   font-weight: light;
+
 }
 
 .Exhibition .swiperSlide p {
@@ -144,4 +146,7 @@ justify-content: space-between;
   font-weight: light;
   padding-top: 1%;
   padding-bottom: 3%;
+  width: 75%;
+  padding-left: 12.5%;
+  /* color: #fcddc8; */
 }

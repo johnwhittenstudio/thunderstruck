@@ -75,6 +75,15 @@ const NavLinks = (props) => {
         animate={animateTo}
         transition={{delay: 0.60}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
+          <Link to="press" activeStyle>
+            press
+          </Link>
+      </motion.li>
+      <motion.li 
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{delay: 0.70}}
+        onClick={() => props.isMobile && props.closeMobileMenu()}>
           <Link to="contact" activeStyle>
             contact
           </Link>

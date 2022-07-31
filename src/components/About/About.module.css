@@ -2,8 +2,7 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 .About {
-  /* background: red; */
-  padding-top: 10%;
+  padding-top: 8%;
   padding-bottom: 4%;
 }
 
@@ -23,14 +22,12 @@
 
 .About .Container .Text {
   text-indent: 3%;
-  /* padding-left: 5%; */
   padding-right: 5%;
 }
 
 .About .blockColLeft {
   flex: 2;
   padding-left: 5%;
-  /* max-width: 45%; */
   left: 0;
 }
 
@@ -38,7 +35,6 @@
   flex: 1;
   padding-left: 7%;
   padding-right: 10%;
-  /* position: fixed; */
   width: 40%;
   right: 0;
 }

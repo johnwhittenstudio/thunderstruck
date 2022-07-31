@@ -84,14 +84,14 @@ const ArtistCards = () => {
                     <div onClick={handleClick1} style={{cursor: 'pointer'}}>
                       <div className={classes.Text}>
                           <h3 >thunder empress</h3>
-                          <h3 >celestial coreographer</h3>
+                          <h3 >celestial choreographer</h3>
                           <h3 >crafter of galaxies</h3>
                           <h3 >earth sculptress</h3>
                           <h3 >language enchanter</h3>
                           <h3 >adventure medium</h3>
                         <br/>
                         <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingRight: '3%', borderRadius: '15px', cursor: 'pointer'}}
-                          onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
+                          onClick={handleURL('https://www.instagram.com/jessidit/?hl=en')} />
                         <GiSpiderWeb className={classes.Icon} color="#092765" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
                           onClick={handleURL('https://www.jessiditillio.com/')} />
                       </div>
@@ -196,10 +196,10 @@ const ArtistCards = () => {
                     <div className={classes.Text}>
                       <h3>priest of pigeons</h3>
                       <h3>particle renderer</h3>
-                      <h3>conjuror of reflections</h3>
-                      <h3>IV</h3>
-                      <h3>V</h3>
-                      <h3>VI</h3>
+                      <h3>reflection conjuror</h3>
+                      <h3>after hours alchemist</h3>
+                      <h3>sower of spells</h3>
+                      <h3>deviser of designs</h3>
                       <br/>
                       <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
                         onClick={handleURL('https://www.instagram.com/john.whitten/?hl=en')} />
@@ -256,7 +256,7 @@ const ArtistCards = () => {
                   <div  onClick={handleClick6} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Rosana Aviña-Beam</h1>
-                      <h4>Dallas, Texas</h4>
+                      <h4>Kennard, Texas</h4>
                       <h4><em>Member since 2018</em></h4>
                     </div>
                   </div >
@@ -293,7 +293,7 @@ const ArtistCards = () => {
                   <div onClick={handleClick7} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h1>Robert Collier Beam</h1>
-                      <h4>Dallas, Texas</h4>
+                      <h4>Kennard, Texas</h4>
                       <h4><em>Member since 2018</em></h4>
                     </div>
                   </div >

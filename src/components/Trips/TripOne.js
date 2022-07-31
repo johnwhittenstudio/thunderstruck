@@ -50,7 +50,7 @@ const Trips = () => {
           <SwiperSlide className={classes.swiperSlide}>
             <img src={tlf_01} alt="" />
             <div className={classes.TripsText}>
-            <p >photo credit: John Whitten </p>
+            <p ><em>The Lightning Field</em>&nbsp; by Walter De Maria near Quemado, NM</p>
             </div>
           </SwiperSlide>
           {/* <SwiperSlide className={classes.swiperSlide}>
@@ -59,25 +59,25 @@ const Trips = () => {
           <SwiperSlide className={classes.swiperSlide}>
             <img src={tlf_03} alt="" />
             <div className={classes.TripsText}>
-              <p >photo credit: John Whitten </p>
+              <p ><em>The Lightning Field</em>&nbsp; by Walter De Maria near Quemado, NM </p>
             </div>
           </SwiperSlide>
           <SwiperSlide className={classes.swiperSlide}>
             <img src={tlf_04} alt="" />
             <div className={classes.TripsText}>
-            <p >photo credit: John Whitten </p>
+            <p ><em>The Lightning Field</em>&nbsp; by Walter De Maria near Quemado, NM</p>
             </div>
           </SwiperSlide>
           <SwiperSlide className={classes.swiperSlide}>
             <img src={vla_01} alt="" />
             <div className={classes.TripsText}>
-            <p >photo credit: John Whitten </p>
+            <p >Very Large Array, Socorro, NM </p>
             </div>
           </SwiperSlide>
           <SwiperSlide className={classes.swiperSlide}>
             <img src={vla_02} alt="" />
             <div className={classes.TripsText}>
-            <p >photo credit: John Whitten </p>
+            <p >Very Large Array, Socorro, NM </p>
             </div>
           </SwiperSlide>
 

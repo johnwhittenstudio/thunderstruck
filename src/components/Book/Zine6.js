@@ -55,6 +55,11 @@ const ZineSix = (props) => {
           
         </HTMLFlipBook>
       </div>
+      <div className={classes.BookText}>
+          <p>Limited edition, 12 page, staple bound zine. Photography and design by John Whitten.</p>
+          <p> Photomicroscopic images of spellcasting salt ingredients: Himalayan Pink Salt, Pink Bath Salt, Bonneville Salt Flat Salt, Black Lava Salt, Charcoal, Bourbon, Sand from Sun Tunnels, Burnt Wood from Sun Tunnels, Iré Ayé, Ori, Afoché, Frankincense, Bergamot, Rock from Spiral Jetty, Glacier Water, Cayenne, MoonPie Fur, Palm Fronds, The Last Orchid Flower, Rosemary, Dragon, The Egg of DGAF, Crystals, Crushed Quartz, Ash and Smoke of the CBD Baby, Chenille Firetail, Toenail of Fran, Critical Mass, Poppy Petals + Magic.</p>
+          <p>A special thanks to Dr. Christopher J. Marshall, Curator and Collections Manager for the Arthropod Collection housed in the Department of Integrative Biology at Oregon State University.</p>
+        </div>
     </div>
   );
 };

@@ -12,11 +12,6 @@ function Artist(props) {
             <h1>{props.name}</h1>
             <h3>{props.location}</h3>
             <p><em>{props.role}</em></p>
-            {/* <hr id="cardhr" />
-            <p>website: <em>{props.website}%</em></p>
-            <p>instagram: <em>{props.instagram}</em></p> */}
-            {/* <p>image: <em><strong>${props.price}</strong></em></p> */}
-            {/* <hr id="cardhrlow" /> */}
             {props.image}
           </div>
         </div>
@@ -34,8 +29,6 @@ Artist.propTypes = {
   image: PropTypes.string,
   id: PropTypes.string,
   whenArtistClicked: PropTypes.func,
-  // whenSellClicked: PropTypes.func,
-  // whenRestockCicked: PropTypes.func
 }
   
 export default Artist;

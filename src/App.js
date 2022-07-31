@@ -14,6 +14,7 @@ import Zine3 from './../src/components/Book/Zine3';
 import Zine4 from './../src/components/Book/Zine4';
 import Zine5 from './../src/components/Book/Zine5';
 import Zine6 from './../src/components/Book/Zine6';
+import InfoMap from './../src/components/Book/InfoMap';
 import Artists from './../src/components/Artists/ArtistCards';
 import Exhibitions from './../src/components/Exhibitions/ExhibitionsIndex';
 import ExhibitionsTS1 from './../src/components/Exhibitions/ExhibitionsTS1';
@@ -22,6 +23,9 @@ import Shop from './../src/components/Shop/Shop';
 import Trips from './../src/components/Trips/Trips';
 import TripsTLF from './../src/components/Trips/TripOne';
 import TripsTST from './../src/components/Trips/TripTwo';
+import Press from './../src/components/Press/Press';
+// import PressParc from './../src/components/Press/Parc';
+// import PressOAW from './../src/components/Press/OAW';
 import Contact from './components/Contact/ContactForm';
 
 
@@ -43,6 +47,7 @@ return (
         <Route path='/books/zine4' element={<Zine4/>} />
         <Route path='/books/zine5' element={<Zine5/>} />
         <Route path='/books/zine6' element={<Zine6/>} />
+        <Route path='/books/info-map' element={<InfoMap/>} />
         <Route path='/exhibitions' element={<Exhibitions/>} />
         <Route path='/exhibitions/ts1' element={<ExhibitionsTS1/>} />
         <Route path='/exhibitions/ts2' element={<ExhibitionsTS2/>} />
@@ -50,6 +55,9 @@ return (
         <Route path='/trips' element={<Trips/>} />
         <Route path='/trips/tlf' element={<TripsTLF/>} />
         <Route path='/trips/tst' element={<TripsTST/>} />
+        <Route path='/press' element={<Press/>} />
+        {/* <Route path='/press/parccollective' element={<PressParc/>} />
+        <Route path='/press/oregonartswatch' element={<PressOAW/>} /> */}
         <Route path='/contact' element={<Contact/>} />
     </Routes>
     </Router>

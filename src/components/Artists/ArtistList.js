@@ -8,14 +8,12 @@ function ArtistList(props) {
     <React.Fragment>
       <div className={classes.Artist}>
       <h2 className={classes.Header}>meet the crüe</h2>
-      {/* <hr /> */}
       <div className={classes.Row}>
       
       {props.artistList.map((artist) => 
         <div className={classes.Column}>
           <div className={classes.Row}>
             <div className={classes.Card} >
-            {/* <br/> */}
             <Artist
               whenArtistClicked = {props.onArtistSelection}
               name={artist.name}

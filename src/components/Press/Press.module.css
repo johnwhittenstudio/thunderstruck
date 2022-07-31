@@ -1,0 +1,90 @@
+/* s Index Page CSS */
+
+.Press {
+  padding-top: 6%;
+  padding-bottom: 4%;
+}
+
+.Press .HeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PressIndex .Header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.Press .Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Press .Column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Press .Row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Press .Container img {
+  max-width: 100%;
+  box-shadow: 0 0 12px 4px #5185978c;
+}
+
+.PressIndex .Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.PressIndex .Row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.PressIndex .Column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Press .Container .Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PressIndex a {
+  text-decoration: none;
+}
+
+
+.PressIndex .Container .Row .PressCover {
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  box-shadow: 0 0 12px 4px #c5cee0;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  transition: 0.3s;
+  max-width: 700px;
+}
+
+
+.PressIndex .PressCover {
+  margin: 5%;
+}

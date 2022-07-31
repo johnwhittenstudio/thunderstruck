@@ -1,6 +1,5 @@
 .Book {
   padding-top: 10%;
-  /* padding-bottom: 2%; */
 }
 
 .Books {
@@ -62,18 +61,13 @@
   background-repeat: no-repeat; 
   background-size: cover;
   border: 0.5px solid #518597;
-  /* border-radius: 17px; */
-  box-shadow: 0 0 12px 4px #c5cee0;
+  box-shadow: 0 0 12px 4px #83b8f4c0;
   color: black;
-  /* padding: 16px; */
   text-align: center;
   font-size: 16px;
   margin: 20px 20px;
-  /* opacity: 0.8; */
   transition: 0.3s;
   max-width: 325px;
-  /* padding: 1px; */
-  /* width: 80%; */
 }
 
 .BooksIndex .Books {
@@ -98,8 +92,26 @@
 .Book .Container {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .Book img {
   width: 450px;
+}
+
+.Book .Container .Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+.BookText p {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-weight: light;
+  color: #fcddc8;
+  width: 60%;
+  padding-left: 20%;
 }

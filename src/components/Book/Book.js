@@ -49,9 +49,7 @@ import page44 from './../img/book/Book-44.jpg'
 const Page = React.forwardRef((props, ref) => {
   return (
     <div className={classes.demoPage} ref={ref}> 
-      {/* <h1>Page Header</h1> */}
       <p>{props.children}</p>
-      {/* <p>Page number: {props.number}</p> */}
     </div>
   );
 });
@@ -59,15 +57,12 @@ const Page = React.forwardRef((props, ref) => {
 const Book = (props) => {
   return (
     <div className={classes.Book}>
-      {/* <h2 className={classes.Header}>browse our publications</h2> */}
       <div className={classes.Container}>
         <HTMLFlipBook 
           width={450} 
           height={900} 
           drawShadow={"true"}
-          // minWidth={300}
           showCover={true} 
-          // size={"stretch"} 
           maxShadowOpacity={0} 
           autoSize={"true"}
           >
@@ -117,6 +112,9 @@ const Book = (props) => {
           <Page number="44"><img src={page44} alt=""/></Page>
         </HTMLFlipBook>
       </div>
+        <div className={classes.BookText}>
+          <p>Limited edition, 38 page, perfect bound collaborative book. Design by John Whitten, cover design by Michael E. Stephen, and essay by Jessi DiTillio. Images contributed by Rosana Aviña-Beam, Robert Beam, Jessi DiTillio, Katherine Spinella, Michael E. Stephen, and John Whitten. Printed by Lithtex in Hillsboro, OR, and distributed by Printed Matter Inc in New York City. </p>
+        </div>
     </div>
   );
 };

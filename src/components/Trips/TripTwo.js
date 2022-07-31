@@ -54,67 +54,67 @@ const Trips = () => {
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_01} alt="" />
           <div className={classes.TripsText}>
-            <p >light painting at Nancy Holt's <em>&nbsp;Sun Tunnels&nbsp;</em> near Wendover, UT</p>
+            <p >light painting with the crüe at Nancy Holt's <i>&nbsp;Sun Tunnels&nbsp;</i>, Wendover, UT</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_02} alt="" />
           <div className={classes.TripsText}>
-            <p >summer solstice sunset at Nancy Holt's <em>&nbsp;Sun Tunnels&nbsp;</em> near Wendover, UT </p>
+            <p >summer solstice sunset at Nancy Holt's <i>&nbsp;Sun Tunnels&nbsp;</i>, Wendover, UT </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_03} alt="" />
           <div className={classes.TripsText}>
-          <p >photo credit: John Whitten </p>
+          <p >winter solstice at the <i>&nbsp;Sun Tunnels&nbsp;</i>, Wendover, UT </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_04} alt="" />
           <div className={classes.TripsText}>            
-          <p >photo credit: John Whitten </p>
+          <p >light painting with the crüe at Nancy Holt's <i>&nbsp;Sun Tunnels&nbsp;</i>, Wendover, UT</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_06} alt="" />
           <div className={classes.TripsText}>
-          <p >photo credit: John Whitten </p>
+          <p >winter solstice sunset at Nancy Holt's <i>&nbsp;Sun Tunnels&nbsp;</i>, Wendover, UT </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_05} alt="" />
           <div className={classes.TripsText}>
-          <p >photo credit: John Whitten </p>
+          <p >Bonneville Salt Flats, UT </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_08} alt="" />
           <div className={classes.TripsText}>
-          <p >photo credit: John Whitten </p>
+          <p >winter solstice sunset at Robert Smithson's <i>&nbsp;Spiral Jetty&nbsp;</i>, Corinne, UT</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_07} alt="" />
           <div className={classes.TripsText}>
-          <p >photo credit: John Whitten </p>
+          <p >winter solstice sunset at Robert Smithson's <i>&nbsp;Spiral Jetty&nbsp;</i>, Corinne, UT</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_11} alt="" />
           <div className={classes.TripsText}>
-          <p >photo credit: John Whitten </p>
+          <p >winter solstice sunset at Robert Smithson's <i>&nbsp;Spiral Jetty&nbsp;</i>, Corinne, UT</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_10} alt="" />
           <div className={classes.TripsText}>
-          <p >photo credit: John Whitten </p>
+          <p ><i>Sun Tunnels</i>&nbsp; winter solstice boondockin' </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={tst_09} alt="" />
           <div className={classes.TripsText}>
-          <p >photo credit: John Whitten </p>
+          <p ><i>Sun Tunnels</i>&nbsp; winter solstice sunset </p>
           </div>
         </SwiperSlide>
       
