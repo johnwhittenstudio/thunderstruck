@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thunderstruck/static/css/main.58597ffd.css",
-    "main.js": "/thunderstruck/static/js/main.3aed637e.js",
+    "main.js": "/thunderstruck/static/js/main.3ecc5659.js",
     "static/js/787.23687ca1.chunk.js": "/thunderstruck/static/js/787.23687ca1.chunk.js",
     "static/media/Book-12.jpg": "/thunderstruck/static/media/Book-12.a88f88fd476eb9dec4e0.jpg",
     "static/media/Book-13.jpg": "/thunderstruck/static/media/Book-13.feda9e8f46571eb51d9a.jpg",
@@ -235,11 +235,11 @@
     "static/media/Info_Map4.jpg": "/thunderstruck/static/media/Info_Map4.337184356eb093bc719c.jpg",
     "index.html": "/thunderstruck/index.html",
     "main.58597ffd.css.map": "/thunderstruck/static/css/main.58597ffd.css.map",
-    "main.3aed637e.js.map": "/thunderstruck/static/js/main.3aed637e.js.map",
+    "main.3ecc5659.js.map": "/thunderstruck/static/js/main.3ecc5659.js.map",
     "787.23687ca1.chunk.js.map": "/thunderstruck/static/js/787.23687ca1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58597ffd.css",
-    "static/js/main.3aed637e.js"
+    "static/js/main.3ecc5659.js"
   ]
 }
