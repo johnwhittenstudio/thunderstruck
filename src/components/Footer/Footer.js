@@ -1,26 +1,30 @@
 import React from "react";
-// import { FaYoutube, FaInstagramSquare } from "react-icons/fa";
+import { FaYoutube, FaInstagramSquare } from "react-icons/fa";
+import { GrMail } from "react-icons/gr";
+
 import BoltTwoToneIcon from '@mui/icons-material/BoltTwoTone'
 import classes from './Footer.module.css'
 
-// const handleURL = (url) => {
-//   return () => window.open(url, "_blank")
-// }
+const handleURL = (url) => {
+  return () => window.open(url, "_blank")
+}
 
 const Footer = () => {
   return ( 
     <div className={classes.Footer}>
       <div className={classes.Row} id="footer">
 
-        {/* <div className={classes.FooterIcons}>
-          <FaYoutube className={classes.Icon} color="grey" size='30px' style={{padding: '1%'}}
-          onClick={handleURL('https://www.youtube.com/channel/UC-V6tMaHcYExkqCy-NWzTxQ/featured')} />
-          <FaInstagramSquare className={classes.Icon} color="grey" size='30px' style={{padding: '1%'}}
+        <div className={classes.FooterIcons}>
+          <GrMail className={classes.Icon} color="#87bcf9" size='30px' style={{padding: '1%'}}
+          onClick={handleURL('mailto:thunderstruckcollective@gmail.com')} />
+          <FaInstagramSquare className={classes.Icon} color="#87bcf9" size='30px' style={{padding: '1%'}}
           onClick={handleURL('https://www.instagram.com/thunderstruckcollective/')} />
-        </div> */}
+          <FaYoutube className={classes.Icon} color="#87bcf9" size='35px' style={{padding: '1%'}}
+          onClick={handleURL('https://www.youtube.com/channel/UC-V6tMaHcYExkqCy-NWzTxQ/featured')} />
+        </div>
         <div className={classes.FooterText}>
           <BoltTwoToneIcon style={{color: '#87bcf9'}}/>
-          <p style={{color: '#87bcf9'}}>© 2022 thunderstruck collective</p>
+          <p style={{color: '#87bcf9'}}>Copyright 2022, thunderstruck collective</p>
           <BoltTwoToneIcon style={{color: '#87bcf9'}}/>
         </div>  
       </div>

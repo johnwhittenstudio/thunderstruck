@@ -13,17 +13,14 @@ code {
 }
 
 body {
-  /* background-color: #1B1C1E; */
-  /* background-image: linear-gradient(#fedec7, #fedec7, #89befb, #022e61); */
   background-image: linear-gradient(#fffeac, #fef4b5, #fedec7, #7dace4, #022e61);
   color: white;
 }
 
-/* #header {
-  font-size: 1.5rem;
-  color: white;
-  text-align: left;
-  position: relative;
-  padding-right: 2%;
-} */
+.swiper-button-next, .swiper-button-prev {
+  color: #043265 !important;
+ }
 
+ .swiper-pagination-bullet-active {
+  color:  #043265 !important;
+ }

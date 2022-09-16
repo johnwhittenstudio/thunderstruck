@@ -2,8 +2,8 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 .About {
-  padding-top: 8%;
-  padding-bottom: 4%;
+  padding-top: 105px;
+  padding-bottom: 1%;
 }
 
 .About .Container {
@@ -11,7 +11,7 @@
   flex-wrap: wrap;
   box-shadow: 0 0 12px 4px #83b8f4db;
   color: rgb(0, 31, 97);
-  padding: 2em;
+  padding: 1.5em;
   margin-left: 13%;
   margin-right: 13%;
   line-height: 1.75em;

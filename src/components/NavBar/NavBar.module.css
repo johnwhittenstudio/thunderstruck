@@ -9,7 +9,7 @@
 .NavBar {
   /* background-image: linear-gradient(#fedec7, #fedec7, #fedec7, #fedec7, #fedec7, #fedec700); */
   background-image: linear-gradient(#fffeac, #fffeac, #fffeac, #fffeac, #fffeac, #fffeac00);
-  height: 80px;
+  height: 100px;
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -21,10 +21,11 @@
 
 .NavBar .Logo {
   position: absolute;
-  left: 5%;
+  /* left: 5%; */
+  left: 40px;
   float:left;
-  /* padding-right:1%; */
-  margin-top:16px;
+  padding-right:1%;
+  margin-top:10px;
   cursor: pointer;
 }
 
@@ -57,7 +58,7 @@
 
 .NavBar nav ul li {
   display: inline-block;
-  margin: 20px;
+  margin: 15px;
 }
 
 .NavBar nav ul li a {
@@ -67,9 +68,10 @@
   font-size: 1rem;
 }
 
-/* .NavBar a:hover {
-  border-bottom: 5px solid #c5d248;
-} */
+.NavBar a:hover {
+  /* border-bottom: 5px solid #c5d248; */
+  color: #89befb;
+}
 
 .NavBar nav ul li a:active {
   font-weight: bold;

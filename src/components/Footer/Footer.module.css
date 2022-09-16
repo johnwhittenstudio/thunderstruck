@@ -26,6 +26,10 @@ color: #fff;
   text-align: center;
 }
 
+.Footer .FooterText p {
+  font-size: 0.8rem;
+}
+
 .Footer .FooterIcons a:hover {
   color: #ffee10;
   box-shadow: 0 0 5px #ffee10;

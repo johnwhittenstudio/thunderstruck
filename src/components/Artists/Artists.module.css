@@ -1,6 +1,6 @@
 .Artist {
-  padding-top: 6%;
-  padding-bottom: 3%;
+  padding-top: 105px;
+  padding-bottom: 1%;
 }
 
 .Artist .Header {
@@ -13,25 +13,29 @@
 
 .Artist .Container {
   margin-left: 10%;
+  margin-right: 10%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  width: 80%;
+  justify-content: center;
+  /* width: 80%; */
 }
 
 .Artist .Column {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 
 }
 
 .Artist .Row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
+  width: 100%;
+  /* padding-left: 5%;
+  padding-right: 5%; */
 }
 
 .Artist .CardFront {

@@ -79,7 +79,7 @@ const NavLinks = (props) => {
             press
           </Link>
       </motion.li>
-      <motion.li 
+      {/* <motion.li 
         initial={animateFrom}
         animate={animateTo}
         transition={{delay: 0.70}}
@@ -87,7 +87,7 @@ const NavLinks = (props) => {
           <Link to="contact" activeStyle>
             contact
           </Link>
-      </motion.li>
+      </motion.li> */}
     </ul>
   );
 }

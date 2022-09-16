@@ -1,10 +1,10 @@
 .Book {
-  padding-top: 10%;
+  padding-top: 135px;
 }
 
 .Books {
-  padding-top: 6%;
-  padding-bottom: 2%;
+  padding-top: 105px;
+  padding-bottom: 1%;
   color: black;
 }
 
@@ -103,13 +103,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 3%;
+  /* padding-bottom: 3%; */
 }
 
 .BookText p {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   font-weight: light;
   color: #fcddc8;
   width: 60%;

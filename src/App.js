@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/NavBarTwo/NavBar';
+import Navbar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
@@ -24,9 +24,6 @@ import Trips from './../src/components/Trips/Trips';
 import TripsTLF from './../src/components/Trips/TripOne';
 import TripsTST from './../src/components/Trips/TripTwo';
 import Press from './../src/components/Press/Press';
-// import PressParc from './../src/components/Press/Parc';
-// import PressOAW from './../src/components/Press/OAW';
-import Contact from './components/Contact/ContactForm';
 
 
 
@@ -56,9 +53,6 @@ return (
         <Route path='/trips/tlf' element={<TripsTLF/>} />
         <Route path='/trips/tst' element={<TripsTST/>} />
         <Route path='/press' element={<Press/>} />
-        {/* <Route path='/press/parccollective' element={<PressParc/>} />
-        <Route path='/press/oregonartswatch' element={<PressOAW/>} /> */}
-        <Route path='/contact' element={<Contact/>} />
     </Routes>
     </Router>
     <Footer />

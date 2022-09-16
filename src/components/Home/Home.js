@@ -1,5 +1,4 @@
 import * as React from "react";
-// import useWindowSize from "@rooks/use-window-size";
 import ParticleImage, {
   Vector,
   forces,
@@ -11,7 +10,7 @@ const particleOptions = {
     // Get pixel
     const pixel = image.get(x, y);
     // Make a particle for this pixel if blue > 50 (range 0-255)
-    return pixel.b > 150;
+    return pixel.b > 200;
   },
   color: ({ x, y, image }) => "#020b1b",
   radius: () => Math.random() * 1.0 + 0.5,
@@ -27,17 +26,11 @@ const motionForce = (x, y) => {
 };
 
 export default function Home() {
-  // const size = useWindowSize({
-  //   // width: window.innerWidth,
-  //   // height: window.innerHeight,
-  // });
 
   return (
     <ParticleImage
       src={"/ts-logo-1.png"}
       className={classes.Home}
-      // width={(size.width)}
-      // height={(size.height)}
       scale={0.60}
       entropy={20}
       maxParticles={5000}
@@ -45,7 +38,6 @@ export default function Home() {
       mouseMoveForce={motionForce}
       touchMoveForce={motionForce}
       backgroundColor="#191d1f00"
-      // backgroundColor="red"
     />
   );
 }
