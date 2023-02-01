@@ -17,6 +17,18 @@ body {
   color: white;
 }
 
+html {
+  height: 100%;
+  max-width: 100%;
+}
+body {
+  height: 100%;
+  max-width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .swiper-button-next, .swiper-button-prev {
   color: #043265 !important;
  }

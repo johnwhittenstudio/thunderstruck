@@ -4,6 +4,11 @@
 .About {
   padding-top: 105px;
   padding-bottom: 1%;
+  width: 100vw;
+}
+
+body {
+  height: 100vh;
 }
 
 .About .Container {
