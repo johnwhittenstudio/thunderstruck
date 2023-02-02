@@ -23,7 +23,7 @@
 .NavBar .Logo {
   position: absolute;
   /* left: 5%; */
-  left: 40px;
+  left: 10px;
   float:left;
   padding-right:1%;
   margin-top:10px;
@@ -121,8 +121,8 @@
     }
 
     .NavBar nav ul li {
-      padding-left: 15%;
-      padding-bottom: 2%;
+      padding-left: 10%;
+      padding-bottom: 5%;
     }
 
     .NavBar {
