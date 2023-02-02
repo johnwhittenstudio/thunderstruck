@@ -31,7 +31,7 @@ export default function Home() {
     <ParticleImage
       src={"/ts-logo-1.png"}
       className={classes.Home}
-      scale={0.50}
+      scale={0.60}
       entropy={20}
       maxParticles={5000}
       particleOptions={particleOptions}
