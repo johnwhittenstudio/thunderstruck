@@ -16,13 +16,13 @@ function PressIndexPage({ Press }) {
         <div className={classes.Container}>
           <div className={classes.Row}>
           <div className={classes.Column}>
-            <a target='_blank' href="https://www.orartswatch.org/facing-the-sun-tunnels/" >
+            <a target='_blank' rel="noreferrer" href="https://www.orartswatch.org/facing-the-sun-tunnels/" >
                 <div className={classes.Text}>
                   <h2>Oregon ArtsWatch Review</h2>
                 </div>
                 <img className={classes.PressCover} src={oaw} alt="me"></img>
             </a>
-            <a target='_blank' href="https://www.parccollective.com/conversations/thunderstruck-collective" >
+            <a target='_blank' rel="noreferrer" href="https://www.parccollective.com/conversations/thunderstruck-collective" >
                 <div className={classes.Text}>
                   <h2>Parc Collective Interview</h2>
                 </div>
