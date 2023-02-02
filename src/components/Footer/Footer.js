@@ -11,22 +11,26 @@ const handleURL = (url) => {
 
 const Footer = () => {
   return ( 
-    <div className={classes.Footer}>
-      <div className={classes.Row} id="footer">
+    <div className={classes.Container}>
+      <div className={classes.Footer}>
+        <div className={classes.Row} id="footer">
 
-        <div className={classes.FooterIcons}>
-          <GrMail className={classes.Icon} color="#87bcf9" size='30px' style={{padding: '1%'}}
-          onClick={handleURL('mailto:thunderstruckcollective@gmail.com')} />
-          <FaInstagramSquare className={classes.Icon} color="#87bcf9" size='30px' style={{padding: '1%'}}
-          onClick={handleURL('https://www.instagram.com/thunderstruckcollective/')} />
-          <FaYoutube className={classes.Icon} color="#87bcf9" size='35px' style={{padding: '1%'}}
-          onClick={handleURL('https://www.youtube.com/channel/UC-V6tMaHcYExkqCy-NWzTxQ/featured')} />
-        </div>
         <div className={classes.FooterText}>
-          {/* <BoltTwoToneIcon style={{color: '#87bcf9'}}/> */}
-          <p style={{color: '#87bcf9'}}><strong>©</strong> 2023, thunderstruck collective</p>
-          {/* <BoltTwoToneIcon style={{color: '#87bcf9'}}/> */}
-        </div>  
+            {/* <BoltTwoToneIcon style={{color: '#87bcf9'}}/> */}
+            <p style={{color: '#87bcf9'}}><strong>©</strong> 2023, thunderstruck collective</p>
+            {/* <BoltTwoToneIcon style={{color: '#87bcf9'}}/> */}
+          </div>  
+
+          <div className={classes.FooterIcons}>
+            <GrMail className={classes.Icon} color="#87bcf9" size='25px' style={{padding: '1%'}}
+            onClick={handleURL('mailto:thunderstruckcollective@gmail.com')} />
+            <FaInstagramSquare className={classes.Icon} color="#87bcf9" size='25px' style={{padding: '1%'}}
+            onClick={handleURL('https://www.instagram.com/thunderstruckcollective/')} />
+            <FaYoutube className={classes.Icon} color="#87bcf9" size='30px' style={{padding: '1%'}}
+            onClick={handleURL('https://www.youtube.com/channel/UC-V6tMaHcYExkqCy-NWzTxQ/featured')} />
+          </div>
+
+        </div>
       </div>
     </div>
   );

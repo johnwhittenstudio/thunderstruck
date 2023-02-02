@@ -1,23 +1,42 @@
+/* .Container {
+  position: relative;
+  height: 2.5rem;
+} */
+
+
 .Footer {   
 /* background-image: linear-gradient(#191d1f, black);  */
 bottom: 0;
 left: 0;
 right: 0;
-height: auto;
+height: 80px;
 width: 100vw;
 padding-top: 40px;
-padding-bottom: 40px;
-color: #fff;
 position: relative;
+margin-bottom: 2%;
+
 }
+
+/* .Footer .Row {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+} */
 
 .Footer .FooterIcons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   flex-direction: row;
   text-align: center;
+  width: 100%;
+  /* margin-left: 45%; */
 }
+
+/* .Footer .FooterIcons .Icon {
+  margin: 0 5%;
+} */
 
 .Footer .FooterText {
   display: flex;
@@ -28,7 +47,7 @@ position: relative;
 }
 
 .Footer .FooterText p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .Footer .FooterIcons a:hover {

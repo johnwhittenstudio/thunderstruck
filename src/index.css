@@ -22,7 +22,9 @@ html {
   max-width: 100%;
 }
 body {
-  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
   max-width: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -32,6 +34,10 @@ body {
 html, body {
   /* max-width: 100%; */
   overflow-x: hidden;
+}
+
+.main {
+  flex-grow: 1;
 }
 
 .swiper-button-next, .swiper-button-prev {
