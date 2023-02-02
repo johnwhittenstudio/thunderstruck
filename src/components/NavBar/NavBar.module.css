@@ -10,7 +10,8 @@
   /* background-image: linear-gradient(#fedec7, #fedec7, #fedec7, #fedec7, #fedec7, #fedec700); */
   background-image: linear-gradient(#fffeac, #fffeac, #fffeac, #fffeac, #fffeac, #fffeac00);
   height: 100px;
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
   position: fixed;
   z-index: 999;
   /* opacity: 0.9; */

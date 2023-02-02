@@ -2,7 +2,7 @@ import React from "react";
 import { FaYoutube, FaInstagramSquare } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
-import BoltTwoToneIcon from '@mui/icons-material/BoltTwoTone'
+// import BoltTwoToneIcon from '@mui/icons-material/BoltTwoTone'
 import classes from './Footer.module.css'
 
 const handleURL = (url) => {
@@ -23,9 +23,9 @@ const Footer = () => {
           onClick={handleURL('https://www.youtube.com/channel/UC-V6tMaHcYExkqCy-NWzTxQ/featured')} />
         </div>
         <div className={classes.FooterText}>
-          <BoltTwoToneIcon style={{color: '#87bcf9'}}/>
-          <p style={{color: '#87bcf9'}}>Copyright 2022, thunderstruck collective</p>
-          <BoltTwoToneIcon style={{color: '#87bcf9'}}/>
+          {/* <BoltTwoToneIcon style={{color: '#87bcf9'}}/> */}
+          <p style={{color: '#87bcf9'}}><strong>©</strong> 2023, thunderstruck collective</p>
+          {/* <BoltTwoToneIcon style={{color: '#87bcf9'}}/> */}
         </div>  
       </div>
     </div>

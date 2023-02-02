@@ -1,6 +1,7 @@
 .Artist {
   padding-top: 105px;
-  padding-bottom: 1%;
+  /* padding-bottom: 1%; */
+  width: 100vw;
 }
 
 .Artist .Header {
@@ -12,8 +13,8 @@
 
 
 .Artist .Container {
-  /* margin-left: 10%;
-  margin-right: 10%; */
+  margin-left: 10%;
+  margin-right: 10%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

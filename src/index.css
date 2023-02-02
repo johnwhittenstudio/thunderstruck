@@ -29,6 +29,11 @@ body {
   background-attachment: fixed;
 }
 
+html, body {
+  /* max-width: 100%; */
+  overflow-x: hidden;
+}
+
 .swiper-button-next, .swiper-button-prev {
   color: #043265 !important;
  }
