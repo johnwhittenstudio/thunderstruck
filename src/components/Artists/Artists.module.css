@@ -56,6 +56,7 @@
   width: 400px;
   padding: 10%;
   margin: 15%;
+  cursor: pointer;
 }
 
 .Artist .CardBack {
@@ -79,10 +80,12 @@
 
 .Artist .CardFront:hover {
   box-shadow: 0 0 12px 4px rgb(0, 31, 97);
+  cursor: pointer;
 }
 
 .Artist .CardBack:hover {
   box-shadow: 0 0 12px 4px rgb(0, 31, 97);
+  cursor: pointer;
 }
 
 .Artist .CardFront .Text {

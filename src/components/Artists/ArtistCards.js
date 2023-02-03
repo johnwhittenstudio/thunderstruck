@@ -231,8 +231,8 @@ const ArtistCards = () => {
                 <div className={classes.CardBack} >
                   <div  onClick={handleClick5} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
-                      <h3>transcriber of elements</h3>
                       <h3>sorcerer of sound</h3>
+                      <h3>II</h3>
                       <h3>III</h3>
                       <h3>IV</h3>
                       <h3>V</h3>
@@ -268,7 +268,7 @@ const ArtistCards = () => {
                 <div className={classes.CardBack} >
                   <div onClick={handleClick6} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
-                      <h3>cultivator of mercy</h3>
+                      <h3>I</h3>
                       <h3>II</h3>
                       <h3>III</h3>
                       <h3>IV</h3>
@@ -306,8 +306,8 @@ const ArtistCards = () => {
                   <div  onClick={handleClick7} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h3>I</h3>
-                      <h3>aerial revisionist</h3>
-                      <h3>the darkness wrangler</h3>
+                      <h3>II</h3>
+                      <h3>III</h3>
                       <h3>IV</h3>
                       <h3>V</h3>
                       <h3>VI</h3>
@@ -343,7 +343,7 @@ const ArtistCards = () => {
                   <div onClick={handleClick8} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
                       <h3>sunset paparazzi</h3>
-                      <h3>tchotchke tycoon</h3>
+                      <h3>II</h3>
                       <h3>III</h3>
                       <h3>IV</h3>
                       <h3>V</h3>
@@ -379,9 +379,9 @@ const ArtistCards = () => {
                 <div className={classes.CardBack} >
                   <div  onClick={handleClick9} style={{cursor: 'pointer'}}>
                     <div className={classes.Text}>
-                      <h3>surface synthesizer</h3>
-                      <h3>excavator of levels</h3>
-                      <h3>artificial peach flavorer</h3>
+                      <h3>I</h3>
+                      <h3>II</h3>
+                      <h3>III</h3>
                       <h3>IV</h3>
                       <h3>V</h3>
                       <h3>VI</h3>
