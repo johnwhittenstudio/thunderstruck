@@ -386,10 +386,10 @@ const ArtistCards = () => {
                       <h3>V</h3>
                       <h3>VI</h3>
                       <br/>
-                      <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
-                        onClick={handleURL('https://www.instagram.com/morganrosskopf_studio/?hl=en')} />
-                      <GiSpiderWeb className={classes.Icon} color="#092765" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
-                        onClick={handleURL('http://morganrosskopf.com/')} />
+                        <FaInstagramSquare className={classes.Icon} color="#092765" size='40px' style={{paddingTop: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                          onClick={handleURL('https://www.instagram.com/morganrosskopf_studio/?hl=en')} />
+                        <GiSpiderWeb className={classes.Icon} color="#092765" size='40px' style={{paddingLeft: '3%', borderRadius: '15px', cursor: 'pointer'}}
+                          onClick={handleURL('http://morganrosskopf.com/')} />
                     </div>
                   </div >
                 </div > 
