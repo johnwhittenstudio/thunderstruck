@@ -95,6 +95,10 @@
       display: none;
     }
 
+    .NavBar {
+      background-image: none;
+    }
+
     .NavBar .MobileNavigation {
       display: flex;
       align-items: center;
@@ -116,11 +120,13 @@
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 70px;
-      padding-top: 15%;
+      top: 0;
+      padding-top: 25%;
       padding-bottom: 35%;
       right: 0;
+      max-height: 100vh;
       width: 100%;
+      z-index: 1;
 
       /* background: linear-gradient(180deg, #fedec7, #fedec7, #89befb, #022e61); */
       background-image: linear-gradient(#fffeac, #fef4b5, #fedec7,#fedec7, #7dace4, #022e61);
@@ -147,6 +153,7 @@
   position: absolute;
   right: 5%;
   cursor: pointer;
+  z-index: 2;
 }
 
 

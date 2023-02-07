@@ -64,16 +64,16 @@ const Exhibitions = () => {
         <SwiperSlide className={classes.swiperSlide}>
           <div className={classes.img}>
             <img src={ts1_01} alt="" />
-            <p >works depicted left to right by Katherine Spinella, Jessi DiTillio, Rosana Aviña-Beam, Michael E. Stephen, Robert Collier Beam</p>
+            <p >works depicted left to right: Katherine Spinella, Jessi DiTillio, Rosana Aviña-Beam, Michael E. Stephen, Robert Collier Beam</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={ts1_03} alt="" />
-          <p>detail of&nbsp;<em>The Serpent and the Rainbow</em>&nbsp;by Michael E. Stephen</p>
+          <p><em>The Serpent and the Rainbow</em> &nbsp;by Michael E. Stephen</p>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={ts1_06} alt="" />
-          <p>detail of&nbsp;<em>The Serpent and the Rainbow</em>&nbsp;by Michael E. Stephen</p>
+          <p><em>The Serpent and the Rainbow</em> &nbsp;by Michael E. Stephen</p>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={ts1_07} alt="" />
@@ -81,7 +81,7 @@ const Exhibitions = () => {
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={ts1_09} alt="" />
-          <p>detail of&nbsp;<em>Walking the Perimeter</em>&nbsp;by Katherine Spinella</p>
+          <p><em>Walking the Perimeter</em> &nbsp;by Katherine Spinella</p>
         </SwiperSlide>
         <SwiperSlide className={classes.swiperSlide}>
           <img src={ts1_10} alt="" />
